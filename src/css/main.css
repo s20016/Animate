@@ -67,7 +67,7 @@ header .mainHeader {
 }
 
 .subHeader .update {
-  padding: 0px 30px;
+  padding: 3px 30px;
   font-size: 12px;
   line-height: 3px;
 }
@@ -77,7 +77,7 @@ header .mainHeader {
 }
 
 .subHeader .update .author {
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .subHeader .legend {
