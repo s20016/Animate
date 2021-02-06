@@ -1,5 +1,5 @@
-import React from 'react'
-import './css/main.css'
+import React from 'react';
+import './css/main.css';
 
 // Material UI Icons & Spinner
 import ViewHeadlineIcon from '@material-ui/icons/ViewHeadline';
