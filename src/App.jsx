@@ -37,8 +37,8 @@ export default class App extends React.Component {
 
   // Retrieve Anime Title (Local API)
   GetAnimeList = async () => {
-    const list = "http://localhost:3000/data/list.json" // locahost:3000
-    // const list = ""
+    // const list = "http://localhost:3000/data/list.json"
+    const list = "https://s20016.github.io/AniFlex/data/list.json"
     await fetch(list)
       .then(res => res.json())
       .then(json => this.setState({ data: json}))
