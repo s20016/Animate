@@ -9,6 +9,7 @@
     --Hover: #1a1919;
     --CardBG: #131313;
     --ScrollHover: #9fe4ff;
+    --NA: #FF453A;
   }
 }
 
@@ -23,6 +24,7 @@
     --Hover: #f5f5f5;
     --CardBG: #FBFBFD;
     --ScrollHover: #48bdeb;
+    --NA: #FF3B30;
   }
 }
 
@@ -67,17 +69,9 @@ header .mainHeader {
 }
 
 .subHeader .update {
-  padding: 3px 30px;
+  padding: 0px 30px;
   font-size: 12px;
   line-height: 3px;
-}
-
-.subHeader .update .up {
-  font-weight: 500;
-}
-
-.subHeader .update .author {
-  font-size: 11px;
 }
 
 .subHeader .legend {
@@ -111,7 +105,7 @@ header .mainHeader {
           justify-content: flex-end;
 }
 
-.display .displayList, .display .displayImg {
+.display .displayList, .display .displayImg, .display .displayLoad {
   padding: 10px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -123,9 +117,13 @@ header .mainHeader {
   outline: none;
 }
 
-.display .displayList:hover, .display .displayImg:hover {
+.display .displayList:hover, .display .displayImg:hover, .display .displayLoad:hover {
   cursor: pointer;
   color: var(--LM);
+}
+
+.display .displayLoad:hover {
+  color: var(--NA);
 }
 
 .aniList {

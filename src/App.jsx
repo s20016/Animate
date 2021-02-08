@@ -4,8 +4,10 @@ import './css/main.css';
 // Material UI Icons & Spinner
 import ViewHeadlineIcon from '@material-ui/icons/ViewHeadline';
 import ViewListIcon from '@material-ui/icons/ViewList';
+import HighlightOffIcon from '@material-ui/icons/HighlightOff';
 import KeyboardArrowUpOutlinedIcon from '@material-ui/icons/KeyboardArrowUpOutlined';
 import HashLoader from "react-spinners/HashLoader";
+import { Tooltip } from '@material-ui/core';
 
 
 export default class App extends React.Component {
@@ -25,14 +27,15 @@ export default class App extends React.Component {
       animeEPS: [],
       viewListMode: true,
       loadingAniFlex: true,
-      color: "#FF2D55"
+      loadingIMGMode: true
     }
   }
 
   async componentDidMount() {
     await this.GetAnimeList()
-    await this.GetAnimeIMG()
     this.setState({ loadingAniFlex: false })
+    await this.GetAnimeIMG()
+    this.setState({ loadingIMGMode: false })
   }
 
   // Retrieve Anime Title (Local API)
@@ -105,8 +108,7 @@ export default class App extends React.Component {
 
         <section className="subHeader">
           <div className="update">
-            <p className="up">Updated: {aniUpdate}</p>
-            <p className="author">AniFlex by JC Tinio</p>
+            <p>Updated: {aniUpdate}</p>
           </div>
           <div className="legend">
             <ul>
@@ -124,15 +126,19 @@ export default class App extends React.Component {
     return (
       <div className="display">
         <button className="displayList" onClick={() => {
-            this.setState({ viewListMode: true })
-          }}>
+            this.setState({ viewListMode: true }) }}>
           <ViewHeadlineIcon/>
         </button>
-        <button className="displayImg" onClick={() => {
-            this.setState({ viewListMode: false })
-          }}>
-          <ViewListIcon/>
-        </button>
+        { this.state.loadingIMGMode
+          ? <Tooltip disableFocusListener 
+              title="Image View is not yet available" placement="top">
+            <div className="displayLoad"><HighlightOffIcon/></div>
+            </Tooltip>
+          : <button className="displayImg" onClick={() => {
+            this.setState({ viewListMode: false }) }}>
+              <ViewListIcon/>
+            </button>
+        } 
       </div>
     )
   }
