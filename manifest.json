@@ -1,11 +1,16 @@
 {
   "short_name": "AniFlex",
-  "name": "AnimeFlex",
+  "name": "Anime Flex",
   "icons": [
     {
-      "src": "./img/aniflex-favicon.png",
+      "src": "img/aniflex-favison.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "img/aniflex-mobile-app.png",
+      "type": "image/png",
+      "sizes": "192x192"
     }
   ],
   "start_url": ".",
