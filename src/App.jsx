@@ -16,9 +16,7 @@ export default class App extends React.Component {
 
     this.state = {
       data: [],
-      animeTitle: '',
       animeUpdate: '',
-      animeLegend: '',
       animeList: [],
       animeURL: [],
       animeIMG: [],
@@ -48,10 +46,8 @@ export default class App extends React.Component {
 
     const data = this.state.data
     this.setState({
-      animeTitle: data.title,
       animeUpdate: data.update,
-      animeLegend: data.legend,
-      animeList: data.anime,
+      animeList: data.anime
     })
   }
 
@@ -61,8 +57,6 @@ export default class App extends React.Component {
     let aniURL = []
     let aniIMG = []
     let aniSYN = []
-    // let aniTYP = []
-    // let aniEPS = []
     
     for (const anititle of this.state.animeList) {
       const title1 = anititle[0].split(" ").join("%20")
@@ -79,31 +73,23 @@ export default class App extends React.Component {
     for (const item in data) {
       aniIMG.push(data[item].image_url)
       aniSYN.push(data[item].synopsis)
-      // aniTYP.push(data[item].type)
-      // aniEPS.push(data[item].episodes)
     }
 
     this.setState({
         animeURL: aniURL,
         animeIMG: aniIMG,
-        animeSYN: aniSYN,
-        // animeTYP: aniTYP,
-        // animeEPS: aniEPS
+        animeSYN: aniSYN
     })
   }
 
   // Anime Title and Description
   AnimeHeader = () => {
-    const aniTitle = this.state.animeTitle
     const aniUpdate = this.state.animeUpdate
-    const aniLegend = this.state.animeLegend
 
     return (
       <>
         <header id="title">
-          <div className="mainHeader">
-            {aniTitle}
-          </div>
+          <div className="mainHeader">Anime List</div>
         </header>
 
         <section className="subHeader">
@@ -112,8 +98,8 @@ export default class App extends React.Component {
           </div>
           <div className="legend">
             <ul>
-              <li className="legendM">{aniLegend[0]}</li>
-              <li className="legendR">{aniLegend[1]}</li>
+              <li className="legendM">Movie</li>
+              <li className="legendR">Watch Count</li>
             </ul>
           </div>
         </section>
@@ -132,13 +118,12 @@ export default class App extends React.Component {
         { this.state.loadingIMGMode
           ? <Tooltip disableFocusListener 
               title="Image View is not yet available" placement="top">
-            <div className="displayLoad"><HighlightOffIcon/></div>
+              <div className="displayLoad"><HighlightOffIcon/></div>
             </Tooltip>
           : <button className="displayImg" onClick={() => {
-            this.setState({ viewListMode: false }) }}>
+              this.setState({ viewListMode: false }) }}>
               <ViewListIcon/>
-            </button>
-        } 
+            </button> } 
       </div>
     )
   }
@@ -153,26 +138,18 @@ export default class App extends React.Component {
       const title2 = anititle[1]
       const titleL = anititle[2].slice(0, 1)
       const titleR = anititle[2].slice(1, 2)
-      if (titleR > 1) {
-        listFinal.push(
-          <li key={int} className={titleL}>
-              {title1}{title2}
-              <span className="R">{titleR}</span>
-          </li>)
-      } else {
-        listFinal.push(
-          <li key={int} className={titleL}>
-            {title1}{title2}
-            <span className="R"></span>
-          </li>)
-      }
-      int += 1
+      listFinal.push(
+        <li key={int} className={titleL}>
+          {title1}{title2}
+          { (titleR > 1)
+            ? <span className="R">{titleR}</span>
+            : <span className="R"></span>
+          }
+        </li>
+      ); int += 1
     }
-    return (
-      <div className="aniList">
-        {listFinal}
-      </div>
-    )
+
+    return <div className="aniList">{listFinal}</div>
   }
 
   // Anime (Image Mode)
@@ -186,8 +163,6 @@ export default class App extends React.Component {
       const titleL = anititle[2].slice(0, 1)
       const titleR = anititle[2].slice(1, 2)
       const aniImg = this.state.animeIMG
-      // const aniTyp = this.state.animeTYP
-      // const aniEps = this.state.animeEPS
       const aniSyn = this.state.animeSYN
 
       imgFinal.push(
@@ -200,23 +175,19 @@ export default class App extends React.Component {
               {title1}{title2}
             </h1>
             <div className="cardType">
-              {titleL === "M"
+              { (titleL === "M")
                 ? <span className="M">Movie</span>
                 : <span className="T">TV</span>
               }
-              {titleR === "2"
-                ? <span className="R">{titleR} REWATCH</span>
+              { (titleR >= "2")
+                ? <span className="R">{titleR}</span>
                 : <span className="R"></span>
               }
-              {/* <span className="L"> {titleL}</span> */}
-              {/* <span className=""> {aniTyp[i]}</span> */}
-              {/* <span className=""> {aniEps[i]} episodes</span> */}
             </div>
             <div className="cardSynopsis">{aniSyn[i]}</div>
           </div>
         </div>
-      )
-      i += 1
+      ); i += 1
     }
 
     return <div className="aniIMG">{imgFinal}</div>
@@ -244,16 +215,17 @@ export default class App extends React.Component {
     return (
       this.state.loadingAniFlex
         ? <div className="load">
-          <HashLoader color={"#70D7FF"} size={50}/>
-          <p>AniFlex</p>
+            <HashLoader color={"#70D7FF"} size={50}/>
+            <p>AniFlex</p>
           </div>
         : <>
-          <this.AnimeHeader/>
-          <this.AnimeDisplay/>
-          {this.state.viewListMode 
-            ? <this.AnimeListMode/> 
-            : <this.AnimeIMGMode />}
-          <this.AnimeFooter/>
+            <this.AnimeHeader/>
+            <this.AnimeDisplay/>
+            { this.state.viewListMode 
+              ? <this.AnimeListMode/> 
+              : <this.AnimeIMGMode />
+            }
+            <this.AnimeFooter/>
           </>
     )
   }

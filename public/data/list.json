@@ -1,7 +1,5 @@
 {
-  "title" : "Anime List",
   "update": "January 18, 2021",
-  "legend": [ "Movie", "Watch Count" ],
   "anime" : [
     ["100-man no Inochi no Ue ni Ore wa Tatteiru", "", "A1"],
     ["3D Kanojo: Real Girl", "", "A1"],
