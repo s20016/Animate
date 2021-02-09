@@ -116,8 +116,8 @@ export default class App extends React.Component {
           <ViewHeadlineIcon/>
         </button>
         { this.state.loadingIMGMode
-          ? <Tooltip disableFocusListener 
-              title="Image View is not yet available" placement="top">
+          ? <Tooltip
+              title="Image View is not yet available" placement="top" arrow>
               <div className="displayLoad"><HighlightOffIcon/></div>
             </Tooltip>
           : <button className="displayImg" onClick={() => {
@@ -180,7 +180,7 @@ export default class App extends React.Component {
                 : <span className="T">TV</span>
               }
               { (titleR >= "2")
-                ? <span className="R">{titleR}</span>
+                ? <span className="R">{titleR} Rewatch</span>
                 : <span className="R"></span>
               }
             </div>
