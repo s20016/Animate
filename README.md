@@ -1,6 +1,13 @@
-## AniFlex
+<h1 align="center">Animate</h1>
 
-Flexin' all anime shows I've currently watched using React JavaScript.  
-Images and informations of each anime  in the list are retrieved using [Jikan API](https://jikan.moe/).
+<p align="center">
+  <a href="https://s20016.github.io/Animate/">
+    <img src="public/img/animate-icon.png" align="center"/>  
+  </a>
+</p>  
+<br>
 
-AniFlex is an app project for my Midterm WebApplication class. 
+> All my anime, manga and light novel titles listed in one app.
+
+Images and synopsis of each anime  in the list are retrieved using [Jikan API](https://jikan.moe/).  
+Animate is an app project for my midterm WebApplication class. 
