@@ -24,14 +24,14 @@ export default class App extends React.Component {
       animeTYP: [],
       animeEPS: [],
       viewListMode: true,
-      loadingAniFlex: true,
+      loadingAnimate: true,
       loadingIMGMode: true
     }
   }
 
   async componentDidMount() {
     await this.GetAnimeList()
-    this.setState({ loadingAniFlex: false })
+    this.setState({ loadingAnimate: false })
     await this.GetAnimeIMG()
     this.setState({ loadingIMGMode: false })
   }
@@ -39,7 +39,7 @@ export default class App extends React.Component {
   // Retrieve Anime Title (Local API)
   GetAnimeList = async () => {
     // const list = "http://localhost:3000/data/list.json"
-    const list = "https://s20016.github.io/AniFlex/data/list.json"
+    const list = "https://s20016.github.io/Animate/data/list.json"
     await fetch(list)
       .then(res => res.json())
       .then(json => this.setState({ data: json}))
@@ -213,10 +213,10 @@ export default class App extends React.Component {
   // Main
   render() {
     return (
-      this.state.loadingAniFlex
+      this.state.loadingAnimate
         ? <div className="load">
             <HashLoader color={"#70D7FF"} size={50}/>
-            <p>AniFlex</p>
+            <p>Animate</p>
           </div>
         : <>
             <this.AnimeHeader/>
