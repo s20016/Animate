@@ -8,23 +8,25 @@
     --Border: #222223;
     --Hover: #1a1919;
     --CardBG: #161515;
-    --ScrollHover: #43b7e6;
     --NA: #FF453A;
+    --ScrollHover: #43b7e6;
+    --ScrollDefault: #504e4e;
   }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --BG: #FFFFFF;
+    --BG: #eff3f7;
     --Main: #363636;
     --Sub: #828283;
     --LM: #198dfa;
     --LR: #FF2D55;
     --Border: #CECED0;
     --Hover: #f5f5f5;
-    --CardBG: #f4f4f8;
-    --ScrollHover: #52c3f0;
+    --CardBG: #ffffff;
     --NA: #FF3B30;
+    --ScrollHover: #52c3f0;
+    --ScrollDefault: #9B9B9D;
   }
 }
 
@@ -273,6 +275,7 @@ header .mainHeader {
   color: var(--Sub);
   font-size: 20px;
   padding-bottom: 60px;
+  outline: none;
 }
 
 .footer .gotopbtn .btn {
@@ -295,10 +298,10 @@ header .mainHeader {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--ScrollHover);
+  background: var(--ScrollDefault);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--LM);
+  background: var(--ScrollHover);
 }
 /*# sourceMappingURL=main.css.map */
