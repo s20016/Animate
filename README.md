@@ -9,5 +9,5 @@
 
 > All my anime, manga and light novel titles listed in one app.
 
-Images and synopsis of each anime  in the list are retrieved using [Jikan API](https://jikan.moe/).  
+Images and synopsis of each anime in the list are retrieved using [Jikan API](https://jikan.moe/).  
 Animate is an app project for my midterm WebApplication class. 
