@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400&family=Noto+Serif+JP:wght@300&display=swap");
 @media (prefers-color-scheme: dark) {
   :root {
     --BG: #101010;
@@ -144,6 +145,11 @@ header .mainHeader {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.aniList .ja_title {
+  font-size: 14px;
+  font-family: 'Noto Serif JP', serif;
 }
 
 .aniList .M, .aniList .A {

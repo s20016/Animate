@@ -1,4 +1,16 @@
-const AnimeHeader = () => {
+import React, { useEffect, useState } from 'react';
+
+const AnimeHeader = () => {  
+  const [date, setDate] = useState("Loading Date")
+
+  useEffect(() => { 
+    const list = "http://localhost:3000/Animate/data/list.json"
+    // const list = "https://s20016.github.io/Animate/data/list.json"
+    fetch(list)
+      .then(res => res.json())
+      .then(json => { setDate(json.update) })
+
+  }, [])
 
   return (
     <>
@@ -8,7 +20,7 @@ const AnimeHeader = () => {
 
       <section className="subHeader">
         <div className="update">
-          <p>Updated: </p>
+          <p>Updated: {date}</p>
         </div>
         <div className="legend">
           <ul>
