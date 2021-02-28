@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from 'react';
 
-import TranslateIcon from '@material-ui/icons/Translate';
-// import GTranslateIcon from '@material-ui/icons/GTranslate';
-
 const AnimeList = () => {  
   const [anime, setAnime] = useState([])
-  const [isEN, setEN] = useState(true)
+  // const [isEN, setEN] = useState(true)
 
-  console.log(isEN)
+  // console.log(isEN)
 
   useEffect(() => { 
     const list = "http://localhost:3000/Animate/data/list.json"
@@ -31,13 +28,13 @@ const AnimeList = () => {
     
     listFinal.push(
       <li key={mal_id} className={
-        (ani_type === "Anime")
-          ? (isEN) ? "A" : "A ja_title"
-          : (isEN) ? "M" : "M ja_title"
+        (ani_type === "Anime") // FIX
+          ? (true) ? "A" : "A ja_title"
+          : (true) ? "M" : "M ja_title"
       }>
-        { (subtitle !== "")
-          ? <>{ (isEN) ? en_title : ja_title }/ {subtitle}</>
-          : <>{ (isEN) ? en_title : ja_title }</>
+        { (subtitle !== "") // FIX
+          ? <>{ (true) ? en_title : ja_title }/ {subtitle}</>
+          : <>{ (true) ? en_title : ja_title }</>
         }
         { (ani_count > 1)
           ? <span className="R">{ani_count}</span>
@@ -48,14 +45,7 @@ const AnimeList = () => {
   }
 
   return (
-    <>
-      <div className="display">
-        <button className="displayList" onClick={() => { setEN(!(isEN)) }}>
-          <TranslateIcon/>
-        </button>
-      </div>
-      <div className="aniList">{listFinal}</div>
-    </>
+    <div className="aniList">{listFinal}</div>
   )
 }
 
