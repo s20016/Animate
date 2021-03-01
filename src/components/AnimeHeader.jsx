@@ -4,7 +4,7 @@ const AnimeHeader = () => {
   const [date, setDate] = useState("Loading Date")
 
   useEffect(() => { 
-    const list = "http://localhost:3000/Animate/data/list.json"
+    const list = "http://localhost:3000/Animate/data/anime_list.json"
     // const list = "https://s20016.github.io/Animate/data/list.json"
     fetch(list)
       .then(res => res.json())
