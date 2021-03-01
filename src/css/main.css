@@ -6,6 +6,7 @@
     --Sub: #A9A9B0;
     --LM: #70D7FF;
     --LR: #FF6482;
+    --CR: #64D2FF;
     --Border: #222223;
     --Hover: #1a1919;
     --CardBG: #161515;
@@ -22,6 +23,7 @@
     --Sub: #828283;
     --LM: #198dfa;
     --LR: #FF2D55;
+    --CR: #33a9e0;
     --Border: #CECED0;
     --Hover: #f5f5f5;
     --CardBG: #ffffff;
@@ -134,7 +136,7 @@ header .mainHeader {
   color: var(--NA);
 }
 
-.aniList {
+.animeList, .mangaList {
   color: var(--Main);
   font-size: 15px;
   text-align-last: start;
@@ -152,12 +154,12 @@ header .mainHeader {
           flex-direction: column;
 }
 
-.aniList .ja_title {
+.animeList .ja_title, .mangaList .ja_title {
   font-size: 14px;
   font-family: 'Noto Serif JP', serif;
 }
 
-.aniList .M, .aniList .A {
+.animeList .M, .animeList .A, .animeList .CR, .mangaList .M, .mangaList .A, .mangaList .CR {
   color: var(--Main);
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -178,22 +180,26 @@ header .mainHeader {
   background-color: transparent;
 }
 
-.aniList .M:first-child, .aniList .A:first-child {
+.animeList .M:first-child, .animeList .A:first-child, .animeList .CR:first-child, .mangaList .M:first-child, .mangaList .A:first-child, .mangaList .CR:first-child {
   border-width: 1px 0;
 }
 
-.aniList .M:last-child, .aniList .A:last-child {
+.animeList .M:last-child, .animeList .A:last-child, .animeList .CR:last-child, .mangaList .M:last-child, .mangaList .A:last-child, .mangaList .CR:last-child {
   border: none;
 }
 
-.aniList .M {
+.animeList .M, .mangaList .M {
   color: var(--LM);
 }
 
-.aniList .R {
+.animeList .R, .mangaList .R {
   color: var(--LR);
   font-weight: 600;
   padding: 0 7px;
+}
+
+.animeList .CR, .mangaList .CR {
+  color: var(--CR);
 }
 
 .aniIMG {

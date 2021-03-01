@@ -7,6 +7,7 @@
     --Sub: #A9A9B0;
     --LM: #70D7FF;
     --LR: #FF6482;
+    --CR: #64D2FF;
     --Border: #222223;
     --Hover: #1a1919;
     --CardBG: #161515;
@@ -21,6 +22,7 @@
     --Sub: #828283;
     --LM: #198dfa;
     --LR: #FF2D55;
+    --CR: #33a9e0;
     --Border: #CECED0;
     --Hover: #f5f5f5;
     --CardBG: #ffffff;
@@ -132,7 +134,7 @@ header {
 }
 
 // List Mode
-.aniList {
+.animeList, .mangaList {
   color: var(--Main);
   font-size: 15px;
   text-align-last: start;
@@ -150,7 +152,7 @@ header {
     font-family: 'Noto Serif JP', serif;
   }
 
-  .M, .A {
+  .M, .A, .CR{
     color: var(--Main);
     flex-grow: 1;
     display: flex;
@@ -181,6 +183,10 @@ header {
     color: var(--LR);
     font-weight: 600;
     padding: 0 7px;
+  }
+
+  .CR {
+    color: var(--CR);
   }
 }
 

@@ -2,6 +2,14 @@
   "update": "March 1, 2021",
   "manga": [
     {
+      "mal_id": 50767,
+      "en_title": "3D Kanojo: Real Girl",
+      "ja_title": "3D 彼女 リアルガール",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
       "mal_id": 86337,
       "en_title": "Black Clover",
       "ja_title": "ブラッククローバー",
@@ -20,7 +28,7 @@
     {
       "mal_id": 95210,
       "en_title": "Boruto: Next Generation",
-      "ja_title": "Boruto: Next Generation",
+      "ja_title": "ボルト：Next Generation",
       "subtitle": "",
       "status": "CR",
       "count": 1
@@ -108,7 +116,7 @@
     {
       "mal_id": 39839,
       "en_title": "In Bura!",
-      "ja_title": "いんブラ！～美少女吸血鬼の恥ずかしい秘密～",
+      "ja_title": "いんブラ！",
       "subtitle": "",
       "status": "FR",
       "count": 1
@@ -124,7 +132,7 @@
     {
       "mal_id": 121485,
       "en_title": "Kaiko Sareta Ankoku Heishi",
-      "ja_title": "解雇された暗黒兵士（30代）のスローなセカンドライフ",
+      "ja_title": "解雇された暗黒兵士のスローなセカンドライフ",
       "subtitle": "",
       "status": "CR",
       "count": 1
@@ -204,7 +212,7 @@
     {
       "mal_id": 11,
       "en_title": "Naruto",
-      "ja_title": "NARUTO 疾風伝",
+      "ja_title": "Naruto（ナルト）",
       "subtitle": "Shippuden",
       "status": "FR",
       "count": 1
@@ -212,7 +220,7 @@
     {
       "mal_id": 113558,
       "en_title": "Neet Dakedo Hello Work ni Ittara Isekai ni Tsuretekareta",
-      "ja_title": "ニートだけどハロワにいったら異世界につれてかれた",
+      "ja_title": "ニートだけどハロワにいったら異世界",
       "subtitle": "",
       "status": "CR",
       "count": 1
@@ -228,7 +236,7 @@
     {
       "mal_id": 119260,
       "en_title": "Ponkotsu Fuukiin to Skaato take ga Futekisetsu na JK no Hanashi",
-      "ja_title": "ポンコツ風紀委員とスカート丈が不適切なJKの話",
+      "ja_title": "ポンコツ風紀委員とスカート丈が不適切なJK",
       "subtitle": "",
       "status": "CR",
       "count": 1
@@ -236,7 +244,7 @@
     {
       "mal_id": 25297,
       "en_title": "Prison School",
-      "ja_title": "監獄学園〈プリズンスクール〉",
+      "ja_title": "監獄学園（プリズンスクール）",
       "subtitle": "",
       "status": "FR",
       "count": 1
@@ -244,15 +252,7 @@
     {
       "mal_id": 78523,
       "en_title": "ReLIFE",
-      "ja_title": "ReLIFE",
-      "subtitle": "",
-      "status": "FR",
-      "count": 1
-    },
-    {
-      "mal_id": 50767,
-      "en_title": "Real girl",
-      "ja_title": "3D彼女〈リアルガール〉",
+      "ja_title": "ReLIFE（リライフ）",
       "subtitle": "",
       "status": "FR",
       "count": 1
