@@ -1,5 +1,5 @@
 {
-  "update": "March 1, 2021",
+  "update": "March 2, 2021",
   "manga": [
     {
       "mal_id": 50767,
@@ -50,14 +50,6 @@
       "count": 1
     },
     {
-      "mal_id": 134086,
-      "en_title": "DICE",
-      "ja_title": "ダイス",
-      "subtitle": "",
-      "status": "CR",
-      "count": 1
-    },
-    {
       "mal_id": 111512,
       "en_title": "Darling in the Franxx",
       "ja_title": "ダーリン・イン・ザ・フランキス",
@@ -96,6 +88,13 @@
       "subtitle": "",
       "status": "CR",
       "count": 1
+    },
+    {
+      "mal_id": 42451,
+      "en_title": "Horimiya",
+      "ja_title": "ホリミヤ",
+      "subtitle": "",
+      "status": ""
     },
     {
       "mal_id": 110737,
@@ -210,6 +209,13 @@
       "count": 1
     },
     {
+      "mal_id": 70259,
+      "en_title": "Mushoku Tensei: Jobless Reincarnation",
+      "ja_title": "無職転生 ～異世界行ったら本気だす～",
+      "subtitle": "",
+      "status": ""
+    },
+    {
       "mal_id": 11,
       "en_title": "Naruto",
       "ja_title": "Naruto（ナルト）",
@@ -280,6 +286,13 @@
       "subtitle": "",
       "status": "CR",
       "count": 1
+    },
+    {
+      "mal_id": 119363,
+      "en_title": "Hey boy! Let's take a break.",
+      "ja_title": "少年、ちょっとサボってこ？",
+      "subtitle": "",
+      "status": ""
     },
     {
       "mal_id": 121496,
