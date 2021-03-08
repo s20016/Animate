@@ -2,10 +2,11 @@ import React from 'react';
 import './css/main.css';
 
 import AnimeHeader from './components/AnimeHeader'
-import AnimeMenu from './components/AnimeMenu'
+import AnimeNavbar from './components/AnimeNavbar'
+// import AnimeMenu from './components/AnimeMenu'
 import AnimeList from './components/AnimeList'
-import MangaList from './components/MangaList'
 import AnimeFooter from './components/AnimeFooter'
+import MangaList from './components/MangaList'
 
 export default class App extends React.Component {
 
@@ -13,7 +14,8 @@ export default class App extends React.Component {
     return (
       <>
         <AnimeHeader/>
-        <AnimeMenu/>
+        <AnimeNavbar/>
+        {/* <AnimeMenu/> */}
         <AnimeList/>
         {/* <MangaList/> */}
         <AnimeFooter/>

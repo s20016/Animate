@@ -136,11 +136,73 @@ header .mainHeader {
   color: var(--NA);
 }
 
+.navbar {
+  left: 0;
+  top: 0;
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  background-color: var(--CardBG);
+}
+
+.navbar .navbar-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  padding: 0;
+  height: 100vh;
+}
+
+.navbar .navbar-items .item {
+  height: 5rem;
+  width: auto;
+}
+
+.navbar .navbar-items .item:last-child {
+  margin-top: auto;
+}
+
+.navbar .navbar-items .item .logo {
+  font-size: 2rem;
+  color: var(--Main);
+}
+
+.navbar .navbar-items .item .logo:hover {
+  color: var(--LM);
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    top: auto;
+    bottom: 0;
+    width: 100vw;
+    height: 4rem;
+  }
+  .navbar .navbar-items {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: auto;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
 .animeList, .mangaList {
   color: var(--Main);
   font-size: 15px;
   text-align-last: start;
-  margin: 0 0 15px 0;
+  margin: 50px 0 15px 0;
   -webkit-padding-start: 26px;
           padding-inline-start: 26px;
   -webkit-padding-end: 10px;
@@ -291,7 +353,7 @@ header .mainHeader {
 .footer .gotopbtn {
   color: var(--Sub);
   font-size: 20px;
-  padding-bottom: 60px;
+  padding-bottom: 130px;
   outline: none;
 }
 

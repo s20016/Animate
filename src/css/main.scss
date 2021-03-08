@@ -102,7 +102,7 @@ header {
   }
 }
 
-// Display
+//! Delete Display
 .display {
   margin: 20px 10px 8px;
   display: flex;
@@ -127,9 +127,67 @@ header {
       color: var(--LM);
     }
   }
-
+  
   .displayLoad:hover {
     color: var(--NA);
+  }
+}
+
+// TODO: Fix 
+// Navbar
+.navbar {
+  left: 0;
+  top: 0;
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  background-color: var(--CardBG);
+  
+  .navbar-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    height: 100vh;
+
+    .item {
+      height: 5rem;
+      width: auto;
+
+      &:last-child {
+        margin-top: auto;
+      }
+
+      .logo {
+        font-size: 2rem;
+        color: var(--Main);
+
+        &:hover {
+          color: var(--LM);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    top: auto;
+    bottom: 0;
+    width: 100vw;
+    height: 4rem;
+
+    .navbar-items {
+      flex-direction: row;
+      height: auto;
+      justify-content: space-evenly;
+      
+      .item {
+        // width: 5rem;
+        // height: 5rem;
+      }
+    }
   }
 }
 
@@ -138,9 +196,7 @@ header {
   color: var(--Main);
   font-size: 15px;
   text-align-last: start;
-
-  // margin: 25px 0 15px 0;
-  margin: 0 0 15px 0;
+  margin: 50px 0 15px 0;
   padding-inline-start: 26px;
   padding-inline-end: 10px;
 
@@ -204,16 +260,9 @@ header {
     max-height: fit-content;
     margin-bottom: 20px;
     color: var(--Main);
-    // transition: transform .2s ease;
-
-    // &:hover {
-    //   transform: scale(1.1);
-    // }
 
     .cardImgCon {
       .cardImg {
-        // width: 100%;
-        // height: auto;
         width: 100%;
         height: 100%;
         border-radius: 4px;
@@ -277,7 +326,7 @@ header {
   .gotopbtn {
     color: var(--Sub);
     font-size: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 130px;
     outline: none;
 
     .btn {

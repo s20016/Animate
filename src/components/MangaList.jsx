@@ -21,8 +21,6 @@ const MangaList = () => {
     const subtitle = title.subtitle
     const status = title.status
     const count = title.count
-
-    console.log(title.status)
     
     listFinal.push(
       <li key={mal_id} className={
