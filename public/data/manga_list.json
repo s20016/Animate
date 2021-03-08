@@ -1,5 +1,5 @@
 {
-  "update": "March 2, 2021",
+  "update": "March 8, 2021",
   "manga": [
     {
       "mal_id": 50767,
@@ -202,6 +202,22 @@
       "count": 1
     },
     {
+      "mal_id": 124780,
+      "en_title": "Koishita node Cast shitemita",
+      "ja_title": "恋したので配信（キャス）してみた",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 118819,
+      "en_title": "Kono Kaisha ni Suki na Hito ga Imasu",
+      "ja_title": "この会社に好きな人がいます",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
       "mal_id": 45143,
       "en_title": "Kono Oto Tomare!",
       "ja_title": "この音とまれ！",
@@ -212,7 +228,7 @@
     {
       "mal_id": 70259,
       "en_title": "Mushoku Tensei: Jobless Reincarnation",
-      "ja_title": "無職転生 ～異世界行ったら本気だす～",
+      "ja_title": "無職転生 異世界行ったら本気だす",
       "subtitle": "",
       "status": "CR",
       "count": 1
@@ -263,6 +279,14 @@
       "ja_title": "ReLIFE（リライフ）",
       "subtitle": "",
       "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 109045,
+      "en_title": "Saikyou no Shokugyou wa Yuusha",
+      "ja_title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
+      "subtitle": "",
+      "status": "CR",
       "count": 1
     },
     {

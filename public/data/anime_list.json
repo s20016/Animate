@@ -1,5 +1,5 @@
 {
-  "update": "February 22, 2021",
+  "update": "March 8, 2021",
   "anime" : [
     {
       "mal_id": 41380,
@@ -248,6 +248,14 @@
       "subtitle": "",
       "type": "Anime",
       "count" : 1
+    },
+    {
+      "mal_id": 41312,
+      "en_title": "By the Grace of the Gods",
+      "ja_title": "神達に拾われた男",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
     },
     {
       "mal_id": 10163,
@@ -1640,6 +1648,14 @@
       "subtitle": "",
       "type": "Movie",
       "count" : 1
+    },
+    {
+      "mal_id": 25159,
+      "en_title": "When Supernatural Battles Became Commonplace",
+      "ja_title": "異能バトルは日常系のなかで",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
     },
     {
       "mal_id": 21085,
