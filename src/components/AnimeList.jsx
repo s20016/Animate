@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
 
+import TranslateIcon from '@material-ui/icons/Translate';
+
 const AnimeList = () => {  
   const [anime, setAnime] = useState([])
+  const [is_EN, setEN] = useState(true)
 
   useEffect(() => { 
     const list = "http://localhost:3000/Animate/data/anime_list.json"
@@ -24,13 +27,13 @@ const AnimeList = () => {
     
     listFinal.push(
       <li key={mal_id} className={
-        (type === "Anime") // FIX
-          ? (true) ? "A" : "A ja_title"
-          : (true) ? "M" : "M ja_title"
+        (type === "TV") // FIX
+          ? (is_EN) ? "A" : "A ja_title"
+          : (is_EN) ? "M" : "M ja_title"
       }>
         { (subtitle !== "") // FIX
-          ? <>{ (false) ? en_title : ja_title }/ {subtitle}</>
-          : <>{ (false) ? en_title : ja_title }</>
+          ? <>{ (is_EN) ? en_title : ja_title }/ {subtitle}</>
+          : <>{ (is_EN) ? en_title : ja_title }</>
         }
         { (count > 1)
           ? <span className="R">{count}</span>
@@ -41,7 +44,18 @@ const AnimeList = () => {
   }
 
   return (
-    <div className="animeList">{listFinal}</div>
+    <>
+    <div className="display">
+      <button className="displayList" onClick={() => { 
+        setEN(!is_EN)
+        }}>
+        <TranslateIcon/>
+      </button>
+    </div>
+      <div className="animeList">
+        {listFinal}
+      </div>
+    </>
   )
 }
 

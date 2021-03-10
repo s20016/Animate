@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronCircleLeft, faPlayCircle, faMehBlank, faUserCircle } from '@fortawesome/free-solid-svg-icons'
+
 const AnimeNavbar = () => {
   // TODO: Fix href, and loop code
   return (
@@ -8,19 +11,25 @@ const AnimeNavbar = () => {
 
         <li className="item">
           <a href="#">
-            <i class="fas fa-layer-group logo"></i>
+            <FontAwesomeIcon icon={faChevronCircleLeft} className="logo" />
           </a>
         </li>
 
         <li className="item">
           <a href="#">
-            <i class="fas fa-book logo"></i>
+            <FontAwesomeIcon icon={faPlayCircle} className="logo" />
           </a>
         </li>
 
         <li className="item">
           <a href="#">
-            <i class="fab fa-github logo"></i>
+            <FontAwesomeIcon icon={faMehBlank} className="logo" />
+          </a>
+        </li>
+
+        <li className="item">
+          <a href="#">
+            <FontAwesomeIcon icon={faUserCircle} className="logo"/>
           </a>
         </li>
 

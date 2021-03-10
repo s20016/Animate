@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import KeyboardArrowUpOutlinedIcon from '@material-ui/icons/KeyboardArrowUpOutlined';
+// import KeyboardArrowUpOutlinedIcon from '@material-ui/icons/KeyboardArrowUpOutlined';
 
 const AnimeFooter = () => {
   const [count, setCount] = useState(0)
@@ -19,11 +19,11 @@ const AnimeFooter = () => {
       <div className="total">
         <p className="count">{count.length} Anime</p>
       </div>
-      <div className="btt">
+      {/* <div className="btt">
         <a href="#title" className="gotopbtn">
           <KeyboardArrowUpOutlinedIcon className="btn" />
         </a>
-      </div>
+      </div> */}
     </div>
   )
 }

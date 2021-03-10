@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400&family=Noto+Serif+JP:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans+JP:wght@300;400&display=swap");
 @media (prefers-color-scheme: dark) {
   :root {
     --BG: #101010;
@@ -101,7 +101,7 @@ header .mainHeader {
 }
 
 .display {
-  margin: 20px 10px 8px;
+  margin: 8px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,7 +111,6 @@ header .mainHeader {
 }
 
 .display .displayList, .display .displayImg, .display .displayLoad {
-  padding: 10px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -122,25 +121,15 @@ header .mainHeader {
   outline: none;
 }
 
-.display .displayList:first-child, .display .displayImg:first-child, .display .displayLoad:first-child {
-  margin-right: auto;
-  margin-left: 7px;
-}
-
 .display .displayList:hover, .display .displayImg:hover, .display .displayLoad:hover {
   cursor: pointer;
   color: var(--LM);
-}
-
-.display .displayLoad:hover {
-  color: var(--NA);
 }
 
 .navbar {
   left: 0;
   top: 0;
   width: 5rem;
-  height: 100vh;
   position: fixed;
   background-color: var(--CardBG);
 }
@@ -192,9 +181,8 @@ header .mainHeader {
         -ms-flex-direction: row;
             flex-direction: row;
     height: auto;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
@@ -202,7 +190,7 @@ header .mainHeader {
   color: var(--Main);
   font-size: 15px;
   text-align-last: start;
-  margin: 50px 0 15px 0;
+  margin: 15px 0;
   -webkit-padding-start: 26px;
           padding-inline-start: 26px;
   -webkit-padding-end: 10px;
@@ -217,8 +205,8 @@ header .mainHeader {
 }
 
 .animeList .ja_title, .mangaList .ja_title {
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 14px;
-  font-family: 'Noto Serif JP', serif;
 }
 
 .animeList .M, .animeList .A, .animeList .CR, .mangaList .M, .mangaList .A, .mangaList .CR {
@@ -343,29 +331,12 @@ header .mainHeader {
   display: grid;
   place-items: center;
   color: var(--Sub);
+  padding-bottom: 40px;
 }
 
 .footer .total {
   font-size: 22px;
   padding-bottom: 50px;
-}
-
-.footer .gotopbtn {
-  color: var(--Sub);
-  font-size: 20px;
-  padding-bottom: 130px;
-  outline: none;
-}
-
-.footer .gotopbtn .btn {
-  font-size: 20px;
-  border-radius: 30px;
-  background-color: var(--Sub);
-  color: var(--BG);
-}
-
-.footer .gotopbtn .btn:hover {
-  background-color: var(--LM);
 }
 
 ::-webkit-scrollbar {
