@@ -1,12 +1,12 @@
 {
-  "update": "March 8, 2021",
+  "update": "March 10, 2021",
   "anime" : [
     {
       "mal_id": 41380,
       "en_title": "100-man no Inochi no Ue ni Ore wa Tatteiru",
       "ja_title": "100万の命の上に俺は立っている",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -14,7 +14,7 @@
       "en_title": "3D Kanojo: Real Girl",
       "ja_title": "3D 彼女 リアルガール",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -30,7 +30,7 @@
       "en_title": "Absolute Duo",
       "ja_title": "アブソリュート・デュオ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -38,7 +38,7 @@
       "en_title": "Air Gear",
       "ja_title": "エア・ギア",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -46,7 +46,7 @@
       "en_title": "Akame ga Kill",
       "ja_title": "アカメが斬る！",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -54,7 +54,7 @@
       "en_title": "Akane-Iro no Somaru Saka",
       "ja_title": "あかね色に染まる坂",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -62,7 +62,7 @@
       "en_title": "Akudama Drive",
       "ja_title": "アクダマドライブ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -70,7 +70,7 @@
       "en_title": "Akuma no Riddle",
       "ja_title": "悪魔のリドル",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -78,7 +78,7 @@
       "en_title": "Aldnoah.Zero",
       "ja_title": "アルドノア・ゼロ総集編",
       "subtitle": "II",
-      "type": "Anime",
+      "type": "TV",
       "count" : 2
     },
     {
@@ -86,7 +86,7 @@
       "en_title": "Amagami SS",
       "ja_title": "アマガミ SS",
       "subtitle": "+ Plus",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -94,7 +94,7 @@
       "en_title": "Amagi Brilliant Park",
       "ja_title": "甘城ブリリアントパーク",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -102,7 +102,7 @@
       "en_title": "Anelog",
       "ja_title": "姉ログ 靄子姉さんの止まらないモノローグ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -110,7 +110,7 @@
       "en_title": "Angel Beats",
       "ja_title": "Angel Beats!（エンジェルビーツ）",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -118,7 +118,7 @@
       "en_title": "Ano Hana",
       "ja_title": "あの日見た花の名前を僕達はまだ知らない",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -134,7 +134,7 @@
       "en_title": "Another",
       "ja_title": "アナザー",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -142,7 +142,7 @@
       "en_title": "Ao Haru Ride",
       "ja_title": "アオハライド",
       "subtitle": "OVA",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -150,7 +150,7 @@
       "en_title": "Ao no Exorcist",
       "ja_title": "青の祓魔師(エクソシスト)",
       "subtitle": "2",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -158,7 +158,7 @@
       "en_title": "Arcana Famiglia",
       "ja_title": "アルカナ・ファミリア",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -166,7 +166,7 @@
       "en_title": "Asa made Jugyou Chu!",
       "ja_title": "朝まで授業chu!",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -174,7 +174,7 @@
       "en_title": "Beastars",
       "ja_title": "BEASTARS",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -182,7 +182,7 @@
       "en_title": "Ben-to",
       "ja_title": "ベン・トー",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -190,7 +190,7 @@
       "en_title": "Black Bullet",
       "ja_title": "ブラック・ブレット［黒の銃弾］",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -198,7 +198,7 @@
       "en_title": "Black Rock Shooter",
       "ja_title": "ブラック・ロックシューター",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -206,7 +206,7 @@
       "en_title": "Blood Lad",
       "ja_title": "ブラッドラッド",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -214,7 +214,7 @@
       "en_title": "Boku no Hero Academia",
       "ja_title": "僕のヒーローアカデミア",
       "subtitle": "II/ III",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -222,7 +222,7 @@
       "en_title": "Boku wa Tomodachi ga Sukunai",
       "ja_title": "僕は友達が少ない",
       "subtitle": "Next",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -230,7 +230,7 @@
       "en_title": "Bokura wa Minna Kawaisou",
       "ja_title": "僕らはみんな河合荘 初めての",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -238,7 +238,7 @@
       "en_title": "Bokutachi wa Benkyou ga Dekinai",
       "ja_title": "ぼくたちは勉強ができない",
       "subtitle": "2",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -246,7 +246,7 @@
       "en_title": "Btooom!",
       "ja_title": "BTOOOM!",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -262,7 +262,7 @@
       "en_title": "C - The Money of Soul & Possibility Ctrl.",
       "ja_title": "C - The Money of Soul & Possibility Ctrl.",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -270,7 +270,7 @@
       "en_title": "Campione!",
       "ja_title": "カンピオーネ！",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -286,7 +286,7 @@
       "en_title": "Charlotte",
       "ja_title": "Charlotte（シャーロット）",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -294,7 +294,7 @@
       "en_title": "Chuunibyou Demo Koi ga Shitai!",
       "ja_title": "中二病でも恋がしたい！",
       "subtitle": "Ren",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -302,7 +302,7 @@
       "en_title": "Citrus",
       "ja_title": "シトラス",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -310,7 +310,7 @@
       "en_title": "Clannad",
       "ja_title": "CLANNAD",
       "subtitle": "After Story",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -318,7 +318,7 @@
       "en_title": "Code Geass: Hangyaku no Lelouch",
       "ja_title": "コードギアス 反逆のルルーシュ",
       "subtitle": "R2",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -326,7 +326,7 @@
       "en_title": "DanMachi",
       "ja_title": "ダンジョンに出会いを求めるのは間違っているだろうか",
       "subtitle": "II/ III/ OVA",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -334,7 +334,7 @@
       "en_title": "DanMachi Gaiden: Sword Oratoria",
       "ja_title": "ダンまち 外伝 ソード・オラトリア",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -350,7 +350,7 @@
       "en_title": "Dakara Boku ha H ga Dekinai",
       "ja_title": "だから僕は、Hができない",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -358,7 +358,7 @@
       "en_title": "Danganronpa: The Animation",
       "ja_title": "ダンガンロンパ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -366,7 +366,7 @@
       "en_title": "Danshi Koukousei no Nichojou",
       "ja_title": "男子高校生の日常",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -374,7 +374,7 @@
       "en_title": "Darling in the Franxx",
       "ja_title": "ダーリン・イン・ザ・フランキス",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -382,7 +382,7 @@
       "en_title": "Date a live",
       "ja_title": "デート・ア・ライブ",
       "subtitle": "2",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -390,7 +390,7 @@
       "en_title": "Death March Kara Hajimaru Isekai",
       "ja_title": "デスマーチからはじまる異世界狂想曲",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -398,7 +398,7 @@
       "en_title": "Death Note",
       "ja_title": "デスノート",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -406,7 +406,7 @@
       "en_title": "Death Parade",
       "ja_title": "デス・パレード",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -414,7 +414,7 @@
       "en_title": "Demon Slayer",
       "ja_title": "鬼滅の刃",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -422,7 +422,7 @@
       "en_title": "Denpa Onna to Seishun Otoko",
       "ja_title": "電波女と青春男",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -430,7 +430,7 @@
       "en_title": "Devil Survivor 2 the Animation",
       "ja_title": "デビルサバイバー２ THE ANIMATION",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -438,7 +438,7 @@
       "en_title": "Dororo",
       "ja_title": "どろろ",
       "subtitle": "2019",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -446,7 +446,7 @@
       "en_title": "Dragon Ball",
       "ja_title": "ドラゴンボール",
       "subtitle": "Z",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -454,7 +454,7 @@
       "en_title": "Dragon Crisis",
       "ja_title": "ドラゴンクライシス!",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -462,7 +462,7 @@
       "en_title": "Durarara!!",
       "ja_title": "デュラララ!!",
       "subtitle": "Shuo x2/ ten",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -470,7 +470,7 @@
       "en_title": "Eden of the East",
       "ja_title": "東のエデン",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -478,7 +478,7 @@
       "en_title": "Ero Manga Sensei",
       "ja_title": "エロマンガ先生",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -494,7 +494,7 @@
       "en_title": "Fate/Stay Night Unlimited Blade Works",
       "ja_title": "Fate/stay Night [Unlimited Blade Works]",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -502,7 +502,7 @@
       "en_title": "Fate/Stay Night",
       "ja_title": "Fate/stay Night",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -510,7 +510,7 @@
       "en_title": "Freezing/ Vibration",
       "ja_title": "フリージング",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -518,7 +518,7 @@
       "en_title": "GATE: Jieitai Kanochi nite Kaku Tatakaeri",
       "ja_title": "GATE（ゲート）自衛隊 彼の地にて、斯く戦えり",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -526,7 +526,7 @@
       "en_title": "Gangsta",
       "ja_title": "GANGSTA (ギャングスタ)",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -534,7 +534,7 @@
       "en_title": "Girls und Panzer",
       "ja_title": "ガールズ&パンツァー",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -542,7 +542,7 @@
       "en_title": "Goblin Slayer",
       "ja_title": "ゴブリンスレイヤー",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -558,7 +558,7 @@
       "en_title": "God Eater",
       "ja_title": "GOD EATER",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -574,7 +574,7 @@
       "en_title": "Golden Time",
       "ja_title": "ゴールデンタイム",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -582,7 +582,7 @@
       "en_title": "Gosick",
       "ja_title": "GOSICK（ゴシック）",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -590,7 +590,7 @@
       "en_title": "Grand Blue",
       "ja_title": "ぐらんぶる",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -598,7 +598,7 @@
       "en_title": "Grisaia no Kaijitsu",
       "ja_title": "グリザイアの果実",
       "subtitle": "Rakuen",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -606,7 +606,7 @@
       "en_title": "Guilty Crown",
       "ja_title": "ギルティクラウン",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 2
     },
     {
@@ -614,7 +614,7 @@
       "en_title": "Hagure Yuusha no Estetica",
       "ja_title": "はぐれ勇者の鬼畜美学恥じらいいっぱい",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -630,7 +630,7 @@
       "en_title": "Hidan No Aria",
       "ja_title": "緋弾のアリア",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -638,7 +638,7 @@
       "en_title": "Highschool DxD",
       "ja_title": "ハイスクールD×D",
       "subtitle": "New/ Born",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -646,7 +646,7 @@
       "en_title": "Highschool of the Dead",
       "ja_title": "学園黙示録 HIGHSCHOOL OF THE DEAD",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -654,7 +654,7 @@
       "en_title": "Hitsugi no Chaika",
       "ja_title": "棺姫のチャイカ",
       "subtitle": "Avenging Battle",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -662,7 +662,7 @@
       "en_title": "Hoshizore he Kakaru Hashi",
       "ja_title": "星空へ架かる橋",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -678,7 +678,7 @@
       "en_title": "Hyouka",
       "ja_title": "氷菓",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -686,15 +686,23 @@
       "en_title": "IS: Infinite Stratos",
       "ja_title": "IS（インフィニット・ストラトス）",
       "subtitle": "2",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
+    },
+    {
+      "mal_id": 35413,
+      "en_title": "Imouto Sae Irba ii",
+      "ja_title": "妹さえいればいい",
+      "subtitle": "",
+      "type": "TV",
+      "count": 2
     },
     {
       "mal_id": 11013,
       "en_title": "Inu x Boku SS",
       "ja_title": "妖狐 × 僕 SS",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -702,7 +710,7 @@
       "en_title": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu",
       "ja_title": "異世界魔王と召喚少女の奴隷魔術",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -710,7 +718,7 @@
       "en_title": "Istuka Tenma no Kurousagi",
       "ja_title": "いつか天魔の黒ウサギ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -718,7 +726,7 @@
       "en_title": "Ixion Saga DT",
       "ja_title": "イクシオン サーガ DT",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -726,7 +734,7 @@
       "en_title": "Just Because!",
       "ja_title": "Just Because!",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -734,7 +742,7 @@
       "en_title": "Kabaneri of the Iron Fortress",
       "ja_title": "甲鉄城のカバネリ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -742,7 +750,7 @@
       "en_title": "Kaichou wa Maid Sama",
       "ja_title": "会長はメイド様!",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -750,7 +758,7 @@
       "en_title": "Kamisama ni Natta Hi",
       "ja_title": "神様になった日",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -758,7 +766,7 @@
       "en_title": "Kamisama no Inai Nichiyoubi",
       "ja_title": "神さまのいない日曜日",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -766,7 +774,7 @@
       "en_title": "Kaze no Stigma",
       "ja_title": "風のスティグマ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -774,7 +782,7 @@
       "en_title": "Kimi ni Todoke",
       "ja_title": "君に届け",
       "subtitle": "II",
-      "type": "Anime",
+      "type": "TV",
       "count" : 2
     },
     {
@@ -787,18 +795,18 @@
     },
     {
       "mal_id": 32281,
-      "en_title": "Kimi no na",
+      "en_title": "Kimi no Na wa",
       "ja_title": "君の名は",
       "subtitle": "",
       "type": "Movie",
-      "count" : 1
+      "count" : 2
     },
     {
       "mal_id": 2927,
       "en_title": "Kimikiss Pure Rogue",
       "ja_title": "キミキス",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -806,7 +814,7 @@
       "en_title": "Kimo no Iru Machi",
       "ja_title": "君のいる町",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -814,7 +822,7 @@
       "en_title": "Kiss x Sis",
       "ja_title": "キスシス",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -830,7 +838,7 @@
       "en_title": "Kokoro Connect",
       "ja_title": "ココロコネクト",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 2
     },
     {
@@ -838,7 +846,7 @@
       "en_title": "Kono Oto Tomare!",
       "ja_title": "この音とまれ！",
       "subtitle": "2",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -846,7 +854,7 @@
       "en_title": "Kore wa Zombie desuka?",
       "ja_title": "これはゾンビですか？",
       "subtitle": "of the Dead",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -854,7 +862,7 @@
       "en_title": "Kyoukai no Kanata",
       "ja_title": "境界の彼方",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -862,7 +870,7 @@
       "en_title": "Ladies x Butlers!",
       "ja_title": "れでぃ×ばと!",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -870,7 +878,7 @@
       "en_title": "MSG: Iron-Blooded Orphans",
       "ja_title": "機動戦士ガンダム 鉄血のオルフェンズ",
       "subtitle": "2",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -878,7 +886,7 @@
       "en_title": "MSG: Seed",
       "ja_title": "機動戦士ガンダム Seed",
       "subtitle": "Destiny",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -886,7 +894,7 @@
       "en_title": "MSG: Unicorn Re:0096",
       "ja_title": "機動戦士ガンダム UC（ユニコーン）RE:0096",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -894,7 +902,7 @@
       "en_title": "Machine-doll wa Kizutsukanai",
       "ja_title": "機巧少女（マシンドール）は傷つかない",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -902,7 +910,7 @@
       "en_title": "Madan no Ou to Vanadis",
       "ja_title": "魔弾の王と戦姫 (ヴァナディース)",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -910,7 +918,7 @@
       "en_title": "Mahou Sensou",
       "ja_title": "魔法戦争",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -918,7 +926,7 @@
       "en_title": "Mahoutsukai no Yome",
       "ja_title": "魔法使いの嫁",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -926,7 +934,7 @@
       "en_title": "Maiden Dusk of Amnesia",
       "ja_title": "黄昏乙女×アムネジア",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -934,7 +942,7 @@
       "en_title": "Maji de watashi ni Koi shinasai",
       "ja_title": "真剣で私に恋しなさい！",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -942,7 +950,7 @@
       "en_title": "Maou Gakuin no Futtekigosha",
       "ja_title": "魔王学院の不適合者",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -950,7 +958,7 @@
       "en_title": "Maoyuu Mao Yuusha",
       "ja_title": "まおゆう魔王勇者",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -958,7 +966,7 @@
       "en_title": "Masamune-kun no Revenge",
       "ja_title": "政宗くんのリベンジ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -966,7 +974,7 @@
       "en_title": "Mashiro Iro Symphony",
       "ja_title": "ましろ色シンフォニー",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -974,7 +982,7 @@
       "en_title": "Mayo Chiki!",
       "ja_title": "まよチキ!",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -982,7 +990,7 @@
       "en_title": "Megalo Box",
       "ja_title": "メガロボクス",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -990,7 +998,7 @@
       "en_title": "Mirai Nikki",
       "ja_title": "未来日記",
       "subtitle": "Redial",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -998,7 +1006,7 @@
       "en_title": "Monogatari Series",
       "ja_title": "物語　シリーズ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1006,7 +1014,7 @@
       "en_title": "Myself; Yourself",
       "ja_title": "マイセルフ; ユアセルフ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1062,7 +1070,7 @@
       "en_title": "Naruto",
       "ja_title": "NARUTO (ナルト)",
       "subtitle": "Shippuden",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1078,7 +1086,7 @@
       "en_title": "Nisekoi",
       "ja_title": "ニセコイ",
       "subtitle": "2",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1086,7 +1094,7 @@
       "en_title": "No Game No Life",
       "ja_title": "ノーゲーム・ノーライフ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1094,7 +1102,7 @@
       "en_title": "Noragami",
       "ja_title": "ノラガミ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1102,7 +1110,7 @@
       "en_title": "Nourin",
       "ja_title": "のうりん",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1110,7 +1118,7 @@
       "en_title": "Nyan Koi",
       "ja_title": "にゃんこい！",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1118,7 +1126,7 @@
       "en_title": "Oda Nobuna no Yabou",
       "ja_title": "織田信奈の野望",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1126,7 +1134,7 @@
       "en_title": "Omamori Himari",
       "ja_title": "おまもりひまり",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1142,7 +1150,7 @@
       "en_title": "Oni Dakedo Aisae Areba Kankenai Yone",
       "ja_title": "お兄ちゃんだけど愛さえあれば関係ないよねっ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1150,7 +1158,7 @@
       "en_title": "Orange",
       "ja_title": "Orange（オレンジ）",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 2
     },
     {
@@ -1166,7 +1174,7 @@
       "en_title": "Ore no Imoto ga Konna ni Kawaii Wake ga Nai",
       "ja_title": "俺の妹がこんなに可愛いわけがない",
       "subtitle": "2",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1174,7 +1182,7 @@
       "en_title": "Outbreak Company",
       "ja_title": "アウトブレイク・カンパニー",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1182,7 +1190,7 @@
       "en_title": "Overlord",
       "ja_title": "オーバーロード",
       "subtitle": "II",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1190,7 +1198,7 @@
       "en_title": "Papa no Iukoto wo Kikinasai",
       "ja_title": "パパのいうことを聞きなさい！",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1198,7 +1206,7 @@
       "en_title": "Parasite the Maxim",
       "ja_title": "寄生獣 セイの格率",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1206,7 +1214,7 @@
       "en_title": "Princess Lover!",
       "ja_title": "プリンセスラバー!",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1214,7 +1222,7 @@
       "en_title": "Rakudai Kishi no Cavalry",
       "ja_title": "落第騎士の英雄譚（キャバルリィ）",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1222,7 +1230,7 @@
       "en_title": "Re:Zero kara Hajimaru Isekai Seikatsu",
       "ja_title": "Re：ゼロから始める異世界生活",
       "subtitle": "2",
-      "type": "Anime",
+      "type": "TV",
       "count" : 2
     },
     {
@@ -1230,7 +1238,7 @@
       "en_title": "Rescue Me!",
       "ja_title": "れすきゅーME!",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1238,7 +1246,7 @@
       "en_title": "Robotics; Note",
       "ja_title": "ロボティクス・ノーツ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1246,7 +1254,7 @@
       "en_title": "Rokko no Yuusha",
       "ja_title": "六花の勇者",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1254,7 +1262,7 @@
       "en_title": "Saenai Hiroin no Sodatekata",
       "ja_title": "冴えない彼女（ヒロイン）の育てかた",
       "subtitle": "♭",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1270,7 +1278,7 @@
       "en_title": "Saikin Imouto no Yousu Gaokashin Daga",
       "ja_title": "最近、妹のようすがちょっとおかしいんだが",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1278,7 +1286,7 @@
       "en_title": "Sakamichi no Apollon",
       "ja_title": "坂道のアポロン",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1286,7 +1294,7 @@
       "en_title": "Sakura Trick",
       "ja_title": "桜Trick",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1294,7 +1302,7 @@
       "en_title": "Sakura-sou no Pet na Kanojo",
       "ja_title": "さくら荘のペットな彼女",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1302,7 +1310,7 @@
       "en_title": "School Days",
       "ja_title": "スクールデイズ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1310,7 +1318,7 @@
       "en_title": "Seikoku no Ryuukishi",
       "ja_title": "星刻の竜騎士",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1318,7 +1326,7 @@
       "en_title": "Seikon no Blacksmith",
       "ja_title": "聖剣の刀鍛冶（ブラックスミス）",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1334,15 +1342,23 @@
       "en_title": "SBY: wa Bunny Girl Senpai no Yume wo Minai",
       "ja_title": "青春ブタ野郎はバニーガール先輩の夢を見ない",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
+    },
+    {
+      "mal_id": 33836,
+      "en_title": "Seiren",
+      "ja_title": "セイレン",
+      "subtitle": "",
+      "type": "TV",
+      "count": 2
     },
     {
       "mal_id": 20973,
       "en_title": "Sekai Seifuku: Bouryaku no Zvezda",
       "ja_title": "世界征服　謀略のズヴィズダー",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1350,7 +1366,7 @@
       "en_title": "Sekirei",
       "ja_title": "セキレイ",
       "subtitle": "Pure Engagement",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1358,7 +1374,7 @@
       "en_title": "Shakugan no Shana",
       "ja_title": "灼眼のシャナ",
       "subtitle": "II/ III",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1366,7 +1382,7 @@
       "en_title": "Shingeki No Kyojin",
       "ja_title": "進撃の巨人",
       "subtitle": "II/ III",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1374,7 +1390,7 @@
       "en_title": "Shuffle!",
       "ja_title": "SHUFFLE! (シャッフル!)",
       "subtitle": "Memories",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1390,7 +1406,7 @@
       "en_title": "Steins;Gate",
       "ja_title": "STEINS;GATE",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1398,7 +1414,7 @@
       "en_title": "Strike the Blood",
       "ja_title": "ストライク・ザ・ブラッド",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1414,7 +1430,7 @@
       "en_title": "Susei no Gargantia",
       "ja_title": "翠星のガルガンティア",
       "subtitle": "OVA",
-      "type": "Anime",
+      "type": "TV",
       "count" : 2
     },
     {
@@ -1422,7 +1438,7 @@
       "en_title": "Sword Art Online",
       "ja_title": "Sword Art Online（ソードアート・オンライン）",
       "subtitle": "II/ III",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1430,7 +1446,7 @@
       "en_title": "Sword Art Online: Alternative GGO",
       "ja_title": "SAO オルタナティブ ガンゲイル・オンライン",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1454,7 +1470,7 @@
       "en_title": "Tada-kun wa Koi wo Shinai",
       "ja_title": "多田くんは恋をしない",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1462,7 +1478,7 @@
       "en_title": "Tales of Zestria the X",
       "ja_title": "テイルズ オブ ゼスティリア ザ クロス",
       "subtitle": "II",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1470,7 +1486,7 @@
       "en_title": "Tate no Yuusha no Nariagari",
       "ja_title": "盾の勇者の成り上がり",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1478,7 +1494,7 @@
       "en_title": "Teacher Please",
       "ja_title": "おねがい ティーチャー",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1486,7 +1502,7 @@
       "en_title": "Tensei Shitara Slime Datta Ken",
       "ja_title": "転生したらスライムだった件",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1494,7 +1510,7 @@
       "en_title": "Terra Formars",
       "ja_title": "TERRA FORMARS (テラフォーマーズ)",
       "subtitle": "Revenge",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1502,7 +1518,7 @@
       "en_title": "Terror in Tokyo",
       "ja_title": "残響のテロル",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1518,7 +1534,7 @@
       "en_title": "The Irregular at Magical High School",
       "ja_title": "魔法科高校の劣等生",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1526,7 +1542,7 @@
       "en_title": "Toaru Hikuushi no Koiuta",
       "ja_title": "とある飛空士への恋歌",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 2
     },
     {
@@ -1534,7 +1550,7 @@
       "en_title": "Tokyo ESP",
       "ja_title": "東京ESP",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1542,7 +1558,7 @@
       "en_title": "Tokyo Ghoul",
       "ja_title": "東京喰種（トーキョーグール）",
       "subtitle": "√A",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1550,7 +1566,7 @@
       "en_title": "Tokyo Magnitude 8.0",
       "ja_title": "東京マグニチュード 8.0",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1558,7 +1574,7 @@
       "en_title": "Tokyo Ravens",
       "ja_title": "東京レイヴンズ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1566,7 +1582,7 @@
       "en_title": "Tonari no Kaibutsu-kun",
       "ja_title": "となりの怪物くん",
       "subtitle": "OVA",
-      "type": "Anime",
+      "type": "TV",
       "count" : 2
     },
     {
@@ -1574,7 +1590,7 @@
       "en_title": "Tonari no Seki-kun",
       "ja_title": "となりの関くん",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1582,7 +1598,7 @@
       "en_title": "Tonikaku Kawaii",
       "ja_title": "トニカクカワイイ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1590,7 +1606,7 @@
       "en_title": "ToraDora!",
       "ja_title": "とらドラ！",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 2
     },
     {
@@ -1598,7 +1614,7 @@
       "en_title": "Trinity Seven",
       "ja_title": "トリニティセブン",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1606,7 +1622,7 @@
       "en_title": "True Tears",
       "ja_title": "True Tears",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1614,7 +1630,7 @@
       "en_title": "Tsuki ga Kirei",
       "ja_title": "月がきれい",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1622,7 +1638,7 @@
       "en_title": "Tsurezure Children",
       "ja_title": "徒然チルドレン",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1638,7 +1654,7 @@
       "en_title": "Violet Evergarden",
       "ja_title": "ヴァイオレット・エヴァーガーデン",
       "subtitle": "OVA",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1662,7 +1678,7 @@
       "en_title": "Witch Craft Works",
       "ja_title": "ウィッチクラフトワークス",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1670,7 +1686,7 @@
       "en_title": "Wotaku ni Koi wa Muzukashii",
       "ja_title": "ヲタクに恋は難しい",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1678,7 +1694,7 @@
       "en_title": "Yahari Ore no Seishun Rabukome wa macchigatteiru",
       "ja_title": "やはり俺の青春ラブコメはまちがっている",
       "subtitle": "Zoku/ Kan",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1686,7 +1702,7 @@
       "en_title": "Yamada and the Seven Witches",
       "ja_title": "山田くんと7人の魔女",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1694,7 +1710,7 @@
       "en_title": "Yosuga no Sora",
       "ja_title": "ヨスガノソラ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1702,7 +1718,7 @@
       "en_title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
       "ja_title": "ようこそ実力至上主義の教室へ",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1710,7 +1726,7 @@
       "en_title": "Your Lie in April",
       "ja_title": "四月は君の嘘",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1718,7 +1734,7 @@
       "en_title": "Yusibu",
       "ja_title": "勇者になれなかった俺はしぶしぶ就職を決意しました",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     },
     {
@@ -1726,7 +1742,7 @@
       "en_title": "Zero no Tsukaima",
       "ja_title": "ゼロの使い魔",
       "subtitle": "II/ III/ IV",
-      "type": "Anime",
+      "type": "TV",
       "count" : 2
     },
     {
@@ -1734,7 +1750,7 @@
       "en_title": "Zetsuen no Tempest",
       "ja_title": "絶園のテンペスト",
       "subtitle": "",
-      "type": "Anime",
+      "type": "TV",
       "count" : 1
     }
   ]
