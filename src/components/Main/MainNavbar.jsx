@@ -10,12 +10,12 @@ const MainNavbar = () => {
     <div className="navbar">
       <ul className="navbar-items">
         <li className="item">
-            <Link to="/">
+            <Link to="/Animate">
               <LaptopChromebookIcon className="logo"/>
             </Link>
         </li>
         <li className="item">
-            <Link to="/Manga">
+            <Link to="/Animate/Manga">
               <MenuBookIcon className="logo"/>
             </Link>
         </li>
