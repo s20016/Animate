@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react';
 
+import TranslateIcon from '@material-ui/icons/Translate';
+
 const MangaList = () => {  
   const [manga, setManga] = useState([])
+  const [is_EN, setEN] = useState(true)
 
   useEffect(() => { 
     const list = "http://localhost:3000/Animate/data/manga_list.json"
-    // const list = "https://s20016.github.io/Animate/data/list.json"
+    // const list = "https://s20016.github.io/Animate/data/manga_list.json"
     
     fetch(list)
       .then(res => res.json())
@@ -24,13 +27,13 @@ const MangaList = () => {
     
     listFinal.push(
       <li key={mal_id} className={
-        (status === "FR") // FIX
-          ? (true) ? "A" : "A ja_title"
-          : (true) ? "CR" : "M ja_title"
+        (status === "FR")
+          ? (is_EN) ? "A" : "A ja_title"
+          : (is_EN) ? "CR" : "M ja_title"
       }>
-        { (subtitle !== "") // FIX
-          ? <>{ (false) ? en_title : ja_title }/ {subtitle}</>
-          : <>{ (false) ? en_title : ja_title }</>
+        { (subtitle !== "")
+          ? <>{ (is_EN) ? en_title : ja_title }/ {subtitle}</>
+          : <>{ (is_EN) ? en_title : ja_title }</>
         }
         { (count > 1)
           ? <span className="R">{count}</span>
@@ -41,7 +44,18 @@ const MangaList = () => {
   }
 
   return (
-    <div className="mangaList">{listFinal}</div>
+    <>
+      <div className="display">
+        <button className="displayList" onClick={() => { 
+          setEN(!is_EN)
+          }}>
+          <TranslateIcon/>
+        </button>
+      </div>
+      <div className="mangaList">
+        {listFinal}
+      </div>
+    </>
   )
 }
 

@@ -21,7 +21,7 @@
     --BG: #eff3f7;
     --Main: #363636;
     --Sub: #828283;
-    --LM: #198dfa;
+    --LM: #33a9e0;
     --LR: #FF2D55;
     --CR: #33a9e0;
     --Border: #CECED0;
@@ -42,18 +42,6 @@ html {
 body {
   background-color: var(--BG);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Montserrat, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.load {
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
-  margin: 100px auto;
-}
-
-.load p {
-  color: var(--Main);
-  font-size: 12px;
 }
 
 header {
@@ -110,7 +98,7 @@ header .mainHeader {
           justify-content: flex-end;
 }
 
-.display .displayList, .display .displayImg, .display .displayLoad {
+.display .displayList {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -121,7 +109,7 @@ header .mainHeader {
   outline: none;
 }
 
-.display .displayList:hover, .display .displayImg:hover, .display .displayLoad:hover {
+.display .displayList:hover {
   cursor: pointer;
   color: var(--LM);
 }
@@ -147,6 +135,7 @@ header .mainHeader {
           align-items: center;
   list-style-type: none;
   padding: 0;
+  margin-top: 10px;
   height: 100vh;
 }
 
@@ -155,12 +144,8 @@ header .mainHeader {
   width: auto;
 }
 
-.navbar .navbar-items .item:last-child {
-  margin-top: auto;
-}
-
 .navbar .navbar-items .item .logo {
-  font-size: 2rem;
+  font-size: 2.4rem;
   color: var(--Main);
 }
 
@@ -249,7 +234,7 @@ header .mainHeader {
 }
 
 .animeList .CR, .mangaList .CR {
-  color: var(--CR);
+  color: var(--LM);
 }
 
 .aniIMG {
@@ -337,6 +322,29 @@ header .mainHeader {
 .footer .total {
   font-size: 22px;
   padding-bottom: 50px;
+}
+
+.scrollToTop {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  z-index: 3;
+}
+
+.scrollToTop .scrollButton {
+  opacity: 0.9;
+  color: var(--Main);
+  border-radius: 30px;
+  background-color: var(--CardBG);
+}
+
+@media only screen and (max-width: 768px) {
+  .scrollToTop {
+    padding-right: 15px;
+    padding-bottom: 80px;
+  }
 }
 
 ::-webkit-scrollbar {

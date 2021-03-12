@@ -8,7 +8,7 @@ const AnimeList = () => {
 
   useEffect(() => { 
     const list = "http://localhost:3000/Animate/data/anime_list.json"
-    // const list = "https://s20016.github.io/Animate/data/list.json"
+    // const list = "https://s20016.github.io/Animate/data/anime_list.json"
 
     fetch(list)
       .then(res => res.json())
@@ -27,11 +27,11 @@ const AnimeList = () => {
     
     listFinal.push(
       <li key={mal_id} className={
-        (type === "TV") // FIX
+        (type === "TV")
           ? (is_EN) ? "A" : "A ja_title"
           : (is_EN) ? "M" : "M ja_title"
       }>
-        { (subtitle !== "") // FIX
+        { (subtitle !== "")
           ? <>{ (is_EN) ? en_title : ja_title }/ {subtitle}</>
           : <>{ (is_EN) ? en_title : ja_title }</>
         }

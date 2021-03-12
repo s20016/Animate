@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 
-const AnimeHeader = () => {  
+const MangaHeader = () => {  
   const [date, setDate] = useState("Loading Date")
 
   useEffect(() => { 
-    const list = "http://localhost:3000/Animate/data/anime_list.json"
-    // const list = "https://s20016.github.io/Animate/data/list.json"
+    const list = "http://localhost:3000/Animate/data/manga_list.json"
+    // const list = "https://s20016.github.io/Animate/data/manga_list.json"
     fetch(list)
       .then(res => res.json())
       .then(json => { setDate(json.update) })
@@ -15,7 +15,7 @@ const AnimeHeader = () => {
   return (
     <>
       <header id="title">
-        <div className="mainHeader">Anime List</div>
+        <div className="mainHeader">Manga List</div>
       </header>
 
       <section className="subHeader">
@@ -24,8 +24,8 @@ const AnimeHeader = () => {
         </div>
         <div className="legend">
           <ul>
-            <li className="legendM">Movie</li>
-            <li className="legendR">Watch Count</li>
+            <li className="legendM">Currently Reading</li>
+            {/* <li className="legendR">Watch Count</li> */}
           </ul>
         </div>
       </section>
@@ -33,4 +33,4 @@ const AnimeHeader = () => {
   )
 }
 
-export default AnimeHeader
+export default MangaHeader
