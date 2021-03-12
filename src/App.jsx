@@ -13,7 +13,7 @@ export default class App extends React.Component {
     return (
       <>
         <MainNavbar/>
-        <MainTopScroll showBelow={200} />
+        <MainTopScroll showBelow={210} />
         <Route exact path="/Animate" component={AnimeMain} />
         <Route exact path="/Animate/Manga" component={MangaMain} />
       </>

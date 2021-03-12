@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import TranslateIcon from '@material-ui/icons/Translate';
+import Button from '@material-ui/core/Button';
 
 const AnimeList = () => {  
   const [anime, setAnime] = useState([])
@@ -46,11 +47,11 @@ const AnimeList = () => {
   return (
     <>
     <div className="display">
-      <button className="displayList" onClick={() => { 
+      <Button className="displayList" onClick={() => {
         setEN(!is_EN)
-        }}>
-        <TranslateIcon/>
-      </button>
+      }}>
+        <TranslateIcon className="translateLogo" />
+      </Button>
     </div>
       <div className="animeList">
         {listFinal}

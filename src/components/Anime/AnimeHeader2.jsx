@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
 const AnimeHeader2 = () => {  
-  const [date, setDate] = useState("Loading Date")
+  const [date, setDate] = useState("")
+  const Background = "https://media.giphy.com/media/Id71NFYfSBOKv2IexE/giphy.gif"
 
   useEffect(() => { 
     const list = "http://localhost:3000/Animate/data/anime_list.json"
@@ -13,7 +14,7 @@ const AnimeHeader2 = () => {
   }, [])
 
   return (
-    <div className="header2">
+    <div className="header2" style={{backgroundImage: "url(" + Background + ")"}}>
       <header id="title">
         <div className="mainHeader">Anime List</div>
       </header>

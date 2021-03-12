@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 :root {
   @media(prefers-color-scheme:dark) {
@@ -10,8 +11,9 @@
     --MHeader: #ffffff;
     --Border: #222223;
     --Hover: #1a1919;
-    --CardBG: #161515;
-    --NA: #FF453A;
+    // --CardBG: #161515;
+    --CardBG: #201f1f;
+    --Navhover: #68a7eb;
     --ScrollHover: #43b7e6;
     --ScrollDefault: #504e4e;
   }
@@ -26,7 +28,7 @@
     --Border: #CECED0;
     --Hover: #f5f5f5;
     --CardBG: #ffffff;
-    --NA: #FF3B30;
+    --Navhover: #2a76c7;
     --ScrollHover: #52c3f0;
     --ScrollDefault: #9B9B9D;
   }
@@ -59,7 +61,6 @@ header {
 
 .header2 {
   -webkit-mask-image: linear-gradient(to bottom, black 91%, transparent 100%);
-  background-image: url("https://media.giphy.com/media/Id71NFYfSBOKv2IexE/giphy.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -109,25 +110,54 @@ header {
 }
 
 .display {
-  // margin: 8px 10px;
-  margin: 20px 10px 10px;
-  display: flex;
-  justify-content: flex-end;
-
+  margin: 0 10px;
+  position: relative;
+  
   .displayList {
-    height: fit-content;
-    border: none;
-    background-color: transparent;
-    border-radius: 7px;
-    color: var(--Sub);
-    outline: none;
+    position: absolute;
+    top: -40px;
+    right: 10px;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    
+    .translateLogo {
+      padding: 15px;
+      color: var(--Main);
+      border: none;
+      background-color: var(--CardBG);
+      border-radius: 30px;
+      outline: none;
 
-    &:hover {
-      cursor: pointer;
-      color: var(--LM);
+      &:hover {
+        cursor: pointer;
+        background-color: #E6E9ED;
+      }
     }
+
   }
 }
+
+// .display {
+//   // margin: 8px 10px;
+//   margin: 20px 10px 10px;
+//   display: flex;
+//   justify-content: flex-end;
+
+//   .displayList {
+//     height: fit-content;
+//     border: none;
+//     background-color: transparent;
+//     border-radius: 7px;
+//     color: var(--Sub);
+//     outline: none;
+
+//     &:hover {
+//       cursor: pointer;
+//       color: var(--LM);
+//     }
+//   }
+// }
 
 // Navbar
 .navbar {
@@ -155,7 +185,7 @@ header {
         color: var(--Main);
 
         &:hover {
-          color: var(--LM);
+          color: var(--Navhover);
         }
       }
     }
@@ -183,15 +213,15 @@ header {
   color: var(--Main);
   font-size: 15px;
   text-align-last: start;
-  margin: 15px 0;
+  margin: 20px 0;
   padding-inline-start: 26px;
   padding-inline-end: 10px;
 
   display: flex;
   flex-direction: column;
+  font-family: 'Noto Sans JP', sans-serif;
 
   .ja_title {
-    font-family: 'Noto Sans JP', sans-serif;
     font-size: 14px;
   }
 
@@ -210,7 +240,8 @@ header {
     background-color: transparent;
 
     &:first-child {
-      border-width: 1px 0;
+      // border-width: 1px 0;
+      border-width: 0 0 1px;
     }
 
     &:last-child {

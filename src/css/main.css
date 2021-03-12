@@ -9,8 +9,8 @@
     --MHeader: #ffffff;
     --Border: #222223;
     --Hover: #1a1919;
-    --CardBG: #161515;
-    --NA: #FF453A;
+    --CardBG: #201f1f;
+    --Navhover: #68a7eb;
     --ScrollHover: #43b7e6;
     --ScrollDefault: #504e4e;
   }
@@ -27,7 +27,7 @@
     --Border: #CECED0;
     --Hover: #f5f5f5;
     --CardBG: #ffffff;
-    --NA: #FF3B30;
+    --Navhover: #2a76c7;
     --ScrollHover: #52c3f0;
     --ScrollDefault: #9B9B9D;
   }
@@ -58,7 +58,6 @@ header .mainHeader {
 .header2 {
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(91%, black), to(transparent));
   -webkit-mask-image: linear-gradient(to bottom, black 91%, transparent 100%);
-  background-image: url("https://media.giphy.com/media/Id71NFYfSBOKv2IexE/giphy.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -107,29 +106,31 @@ header .mainHeader {
 }
 
 .display {
-  margin: 20px 10px 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  margin: 0 10px;
+  position: relative;
 }
 
 .display .displayList {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  position: absolute;
+  top: -40px;
+  right: 10px;
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+}
+
+.display .displayList .translateLogo {
+  padding: 15px;
+  color: var(--Main);
   border: none;
-  background-color: transparent;
-  border-radius: 7px;
-  color: var(--Sub);
+  background-color: var(--CardBG);
+  border-radius: 30px;
   outline: none;
 }
 
-.display .displayList:hover {
+.display .displayList .translateLogo:hover {
   cursor: pointer;
-  color: var(--LM);
+  background-color: #E6E9ED;
 }
 
 .navbar {
@@ -168,7 +169,7 @@ header .mainHeader {
 }
 
 .navbar .navbar-items .item .logo:hover {
-  color: var(--LM);
+  color: var(--Navhover);
 }
 
 @media only screen and (max-width: 768px) {
@@ -193,7 +194,7 @@ header .mainHeader {
   color: var(--Main);
   font-size: 15px;
   text-align-last: start;
-  margin: 15px 0;
+  margin: 20px 0;
   -webkit-padding-start: 26px;
           padding-inline-start: 26px;
   -webkit-padding-end: 10px;
@@ -205,10 +206,10 @@ header .mainHeader {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .animeList .ja_title, .mangaList .ja_title {
-  font-family: 'Noto Sans JP', sans-serif;
   font-size: 14px;
 }
 
@@ -234,7 +235,7 @@ header .mainHeader {
 }
 
 .animeList .M:first-child, .animeList .A:first-child, .animeList .CR:first-child, .mangaList .M:first-child, .mangaList .A:first-child, .mangaList .CR:first-child {
-  border-width: 1px 0;
+  border-width: 0 0 1px;
 }
 
 .animeList .M:last-child, .animeList .A:last-child, .animeList .CR:last-child, .mangaList .M:last-child, .mangaList .A:last-child, .mangaList .CR:last-child {
