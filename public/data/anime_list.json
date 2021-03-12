@@ -1,5 +1,5 @@
 {
-  "update": "March 10, 2021",
+  "update": "March 12, 2021",
   "anime" : [
     {
       "mal_id": 41380,
@@ -824,6 +824,14 @@
       "subtitle": "",
       "type": "TV",
       "count" : 1
+    },
+    {
+      "mal_id": 12175,
+      "en_title": "Love, Election and Chocolate",
+      "ja_title": "恋と選挙とチョコレート",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
     },
     {
       "mal_id": 28851,

@@ -1,5 +1,5 @@
 {
-  "update": "March 8, 2021",
+  "update": "March 12, 2021",
   "manga": [
     {
       "mal_id": 50767,
@@ -318,7 +318,8 @@
       "en_title": "Hey boy! Let's take a break.",
       "ja_title": "少年、ちょっとサボってこ？",
       "subtitle": "",
-      "status": ""
+      "status": "FR",
+      "count": 1
     },
     {
       "mal_id": 121496,
