@@ -105,6 +105,10 @@ header .mainHeader {
   color: var(--LR);
 }
 
+.subHeader .legend .legendF::marker {
+  color: var(--Main);
+}
+
 .display {
   margin: 0 10px;
   position: relative;

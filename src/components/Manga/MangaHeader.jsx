@@ -25,7 +25,7 @@ const MangaHeader = () => {
         <div className="legend">
           <ul>
             <li className="legendM">Currently Reading</li>
-            {/* <li className="legendR">Watch Count</li> */}
+            <li className="legendF">Finished Reading</li>
           </ul>
         </div>
       </section>
