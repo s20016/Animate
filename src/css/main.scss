@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans+JP:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
 :root {
   @media(prefers-color-scheme:dark) {
@@ -7,7 +7,7 @@
     --Sub: #A9A9B0;
     --LM: #70D7FF;
     --LR: #FF6482;
-    --CR: #64D2FF;
+    --MHeader: #ffffff;
     --Border: #222223;
     --Hover: #1a1919;
     --CardBG: #161515;
@@ -22,7 +22,7 @@
     --Sub: #828283;
     --LM: #33a9e0;
     --LR: #FF2D55;
-    --CR: #33a9e0;
+    --MHeader: #ffffff;
     --Border: #CECED0;
     --Hover: #f5f5f5;
     --CardBG: #ffffff;
@@ -57,9 +57,27 @@ header {
   }
 }
 
+.header2 {
+  -webkit-mask-image: linear-gradient(to bottom, black 91%, transparent 100%);
+  background-image: url("https://media.giphy.com/media/Id71NFYfSBOKv2IexE/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 200px;
+  opacity: 0.9;
+
+  .mainHeader {
+    background-color: transparent;
+    color: var(--MHeader);
+    font-size: 34px;
+    font-weight: 700;
+  }
+}
+
 .subHeader {
   z-index: 4;
-  color: var(--Sub);
+  // color: var(--Sub);
+  color: var(--MHeader);
   text-transform: uppercase;
 
   .update {
@@ -91,7 +109,8 @@ header {
 }
 
 .display {
-  margin: 8px 10px;
+  // margin: 8px 10px;
+  margin: 20px 10px 10px;
   display: flex;
   justify-content: flex-end;
 
@@ -287,11 +306,10 @@ header {
   display: grid;
   place-items: center;
   color: var(--Sub);
-  padding-bottom: 40px;
+  padding-bottom: 90px;
 
   .total {
     font-size: 22px;
-    padding-bottom: 50px;
   }
 }
 
@@ -306,7 +324,6 @@ header {
   z-index: 3;
   
   .scrollButton {
-    opacity: 0.9;
     color: var(--Main);
     border-radius: 30px;
     background-color: var(--CardBG);
