@@ -1,0 +1,381 @@
+{
+  "update": "March 13, 2021",
+  "manga": [
+    {
+      "mal_id": 50767,
+      "en_title": "3D Kanojo: Real Girl",
+      "ja_title": "3D 彼女 リアルガール",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 86337,
+      "en_title": "Black Clover",
+      "ja_title": "ブラッククローバー",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 63781,
+      "en_title": "Boku Girl",
+      "ja_title": "ボクガール",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 95210,
+      "en_title": "Boruto: Next Generation",
+      "ja_title": "ボルト：Next Generation",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 20593,
+      "en_title": "Btooom!",
+      "ja_title": "BTOOOM!",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 133491,
+      "en_title": "Close as Neighbors",
+      "ja_title": "Close as Neighbors",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 111512,
+      "en_title": "Darling in the Franxx",
+      "ja_title": "ダーリン・イン・ザ・フランキス",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 96792,
+      "en_title": "Demon Slayer",
+      "ja_title": "鬼滅の刃",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 70941,
+      "en_title": "Domestic Kanojo",
+      "ja_title": "ドメスティックな彼女",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 121597,
+      "en_title": "Dosanko Gyaru is Mega Cute",
+      "ja_title": "道産子ギャルはなまらめんこい",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 1167661,
+      "en_title": "Hige wo Soru",
+      "ja_title": "ひげを剃る。そして女子高生を拾う",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 42451,
+      "en_title": "Horimiya",
+      "ja_title": "ホリミヤ",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 110737,
+      "en_title": "Ijiranaide Nagatoror-san",
+      "ja_title": "イジらないで、長瀞さん",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 33031,
+      "en_title": "Imawa no Kuni no Alice",
+      "ja_title": "今際の国のアリス",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 39839,
+      "en_title": "In Bura!",
+      "ja_title": "いんブラ！",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 133983,
+      "en_title": "Isekai de Te ni Ireta Seisan Skill wa Saikyou Datta you desu",
+      "ja_title": "異世界で手に入れた生産スキルは最強だったようです。",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 26584,
+      "en_title": "Kagami no kuni no Harisugawa",
+      "ja_title": "鏡の国の針栖川",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 121485,
+      "en_title": "Kaiko Sareta Ankoku Heishi",
+      "ja_title": "解雇された暗黒兵士のスローなセカンドライフ",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 123602,
+      "en_title": "Kakkou no Iinazuke",
+      "ja_title": "カッコウの許嫁",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 125206,
+      "en_title": "Kamigami ni Sodaterare Shimo No Saikyou to Naru",
+      "ja_title": "神々に育てられしもの、最強となる",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 108407,
+      "en_title": "Kanojo Okarishimasu",
+      "ja_title": "彼女、お借りします",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 54817,
+      "en_title": "Kanojo ni naru hi",
+      "ja_title": "彼女になる日",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 8483,
+      "en_title": "Kimi no Iru Machi",
+      "ja_title": "君のいる町",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 91514,
+      "en_title": "Kishuku Gakkou no Juliet",
+      "ja_title": "寄宿学校のジュリエット",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 3048,
+      "en_title": "Kiss x Sis",
+      "ja_title": "キス×シス",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 56805,
+      "en_title": "Koe no Katachi",
+      "ja_title": "聲の形",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 124780,
+      "en_title": "Koishita node Cast shitemita",
+      "ja_title": "恋したので配信（キャス）してみた",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 118819,
+      "en_title": "Kono Kaisha ni Suki na Hito ga Imasu",
+      "ja_title": "この会社に好きな人がいます",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 45143,
+      "en_title": "Kono Oto Tomare!",
+      "ja_title": "この音とまれ！",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 70259,
+      "en_title": "Mushoku Tensei: Jobless Reincarnation",
+      "ja_title": "無職転生 異世界行ったら本気だす",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 11,
+      "en_title": "Naruto",
+      "ja_title": "Naruto（ナルト）",
+      "subtitle": "Shippuden",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 113558,
+      "en_title": "Neet Dakedo Hello Work ni Ittara Isekai ni Tsuretekareta",
+      "ja_title": "ニートだけどハロワにいったら異世界",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 21419,
+      "en_title": "Nozoki Ana",
+      "ja_title": "ノ・ゾ・キ・ア・ナ",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 119260,
+      "en_title": "Ponkotsu Fuukiin to Skaato take ga Futekisetsu na JK no Hanashi",
+      "ja_title": "ポンコツ風紀委員とスカート丈が不適切なJK",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 25297,
+      "en_title": "Prison School",
+      "ja_title": "監獄学園（プリズンスクール）",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 78523,
+      "en_title": "ReLIFE",
+      "ja_title": "ReLIFE（リライフ）",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 109045,
+      "en_title": "Saikyou no Shokugyou wa Yuusha",
+      "ja_title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 28393,
+      "en_title": "Sakamichi no Apollon",
+      "ja_title": "坂道のアポロン",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 117080,
+      "en_title": "Sensei wa koi wo Oshierarenai",
+      "ja_title": "先生は恋を教えられない",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 23390,
+      "en_title": "Shingeki no Kyojin",
+      "ja_title": "進撃の巨人",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 119363,
+      "en_title": "Hey boy! Let's take a break.",
+      "ja_title": "少年、ちょっとサボってこ？",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 121496,
+      "en_title": "Solo Leveling",
+      "ja_title": "Solo Leveling (나 혼자만 레벨업)",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 127781,
+      "en_title": "Tensei Kizoku, Kantei Skill de Nariagaru",
+      "ja_title": "転生貴族鑑定スキルで成り上がる",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 22651,
+      "en_title": "The Breaker",
+      "ja_title": "The Breaker (브레이커)",
+      "subtitle": "New Wave (NW)",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 33327,
+      "en_title": "Tokyo Ghoul",
+      "ja_title": "東京喰種トーキョーグール",
+      "subtitle": "Re:",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 35003,
+      "en_title": "Yamada-kun to 7-nin no Majo",
+      "ja_title": "山田くんと7人の魔女",
+      "subtitle": "",
+      "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 125345,
+      "en_title": "Yankee JK Kuzuhana-chan",
+      "ja_title": "ヤンキーJKクズハナちゃん",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    }    
+  ]
+}
