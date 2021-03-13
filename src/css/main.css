@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 @media (prefers-color-scheme: dark) {
   :root {
     --BG: #101010;
@@ -11,6 +11,7 @@
     --Hover: #1a1919;
     --CardBG: #201f1f;
     --Navhover: #68a7eb;
+    --TranslateHover: #161515;
     --ScrollHover: #43b7e6;
     --ScrollDefault: #504e4e;
   }
@@ -28,6 +29,7 @@
     --Hover: #f5f5f5;
     --CardBG: #ffffff;
     --Navhover: #2a76c7;
+    --TranslateHover: #E6E9ED;
     --ScrollHover: #52c3f0;
     --ScrollDefault: #9B9B9D;
   }
@@ -37,6 +39,7 @@ html {
   max-width: 600px;
   margin: auto;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -47,12 +50,7 @@ body {
 header {
   z-index: 5;
   color: var(--Main);
-  padding: 30px 32px 34px;
-}
-
-header .mainHeader {
-  font-size: 34px;
-  font-weight: 700;
+  padding: 30px 30px 34px;
 }
 
 .header2 {
@@ -110,7 +108,7 @@ header .mainHeader {
 }
 
 .display {
-  margin: 0 10px;
+  margin: 0;
   position: relative;
 }
 
@@ -134,7 +132,7 @@ header .mainHeader {
 
 .display .displayList .translateLogo:hover {
   cursor: pointer;
-  background-color: #E6E9ED;
+  background-color: var(--TranslateHover);
 }
 
 .navbar {
@@ -143,6 +141,7 @@ header .mainHeader {
   width: 5rem;
   position: fixed;
   background-color: var(--CardBG);
+  z-index: 5;
 }
 
 .navbar .navbar-items {
@@ -211,10 +210,6 @@ header .mainHeader {
       -ms-flex-direction: column;
           flex-direction: column;
   font-family: 'Noto Sans JP', sans-serif;
-}
-
-.animeList .ja_title, .mangaList .ja_title {
-  font-size: 14px;
 }
 
 .animeList .M, .animeList .A, .animeList .CR, .mangaList .M, .mangaList .A, .mangaList .CR {

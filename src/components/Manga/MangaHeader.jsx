@@ -5,8 +5,8 @@ const MangaHeader = () => {
   const Background = "https://media.giphy.com/media/3ohzdLD2vN09ZavdqU/giphy.gif"
 
   useEffect(() => { 
-    const list = "http://localhost:3000/Animate/data/manga_list.json"
-    // const list = "https://s20016.github.io/Animate/data/manga_list.json"
+    // const list = "http://localhost:3000/Animate/data/manga_list.json"
+    const list = "https://s20016.github.io/Animate/data/manga_list.json"
     fetch(list)
       .then(res => res.json())
       .then(json => { setDate(json.update) })

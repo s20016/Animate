@@ -4,8 +4,8 @@ const AnimeFooter = () => {
   const [count, setCount] = useState(0)
 
   useEffect(() => { 
-    const list = "http://localhost:3000/Animate/data/anime_list.json"
-    // const list = "https://s20016.github.io/Animate/data/anime_list.json"
+    // const list = "http://localhost:3000/Animate/data/anime_list.json"
+    const list = "https://s20016.github.io/Animate/data/anime_list.json"
     fetch(list)
       .then(res => res.json())
       .then(json => { setCount(json.anime) })
