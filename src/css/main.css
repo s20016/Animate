@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
 @media (prefers-color-scheme: dark) {
   :root {
     --BG: #101010;
@@ -255,80 +255,6 @@ header {
 }
 
 .animeList .CR, .mangaList .CR {
-  color: var(--LM);
-}
-
-.aniIMG {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: 20px;
-}
-
-.aniIMG .aniImgBanner {
-  background-color: var(--CardBG);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border-radius: 4px;
-  max-height: -webkit-fit-content;
-  max-height: -moz-fit-content;
-  max-height: fit-content;
-  margin-bottom: 20px;
-  color: var(--Main);
-}
-
-.aniIMG .aniImgBanner .cardImgCon .cardImg {
-  width: 100%;
-  height: 100%;
-  border-radius: 4px;
-}
-
-.aniIMG .aniImgBanner .cardTitleCon {
-  width: 100%;
-  padding-left: 18px;
-}
-
-.aniIMG .aniImgBanner .cardTitleCon .cardTitle {
-  margin: 10px 0px;
-  padding-right: 17px;
-  font-size: 15px;
-}
-
-.aniIMG .aniImgBanner .cardTitleCon .cardType {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-weight: 700;
-  margin: 12px auto;
-  text-transform: uppercase;
-}
-
-.aniIMG .aniImgBanner .cardTitleCon .cardSynopsis {
-  margin: 9px 0px 5px;
-  text-align: justify;
-}
-
-.aniIMG .aniImgBanner .cardTitleCon .cardType, .aniIMG .aniImgBanner .cardTitleCon .cardSynopsis {
-  padding-right: 17px;
-  font-size: 11px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 6;
-  -webkit-box-orient: vertical;
-}
-
-.aniIMG .aniImgBanner .cardTitleCon .cardType .R, .aniIMG .aniImgBanner .cardTitleCon .cardSynopsis .R {
-  color: var(--LR);
-  float: right;
-}
-
-.aniIMG .aniImgBanner .cardTitleCon .cardType .M, .aniIMG .aniImgBanner .cardTitleCon .cardSynopsis .M {
   color: var(--LM);
 }
 

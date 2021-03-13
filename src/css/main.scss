@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
 :root {
   @media(prefers-color-scheme:dark) {
@@ -139,27 +140,6 @@ header {
   }
 }
 
-// .display {
-//   // margin: 8px 10px;
-//   margin: 20px 10px 10px;
-//   display: flex;
-//   justify-content: flex-end;
-
-//   .displayList {
-//     height: fit-content;
-//     border: none;
-//     background-color: transparent;
-//     border-radius: 7px;
-//     color: var(--Sub);
-//     outline: none;
-
-//     &:hover {
-//       cursor: pointer;
-//       color: var(--LM);
-//     }
-//   }
-// }
-
 // Navbar
 .navbar {
   left: 0;
@@ -263,73 +243,6 @@ header {
 
   .CR {
     color: var(--LM);
-  }
-}
-
-
-// Image mode
-.aniIMG {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-
-  .aniImgBanner {
-    background-color: var(--CardBG);
-    display: flex;
-    border-radius: 4px;
-    max-height: fit-content;
-    margin-bottom: 20px;
-    color: var(--Main);
-
-    .cardImgCon {
-      .cardImg {
-        width: 100%;
-        height: 100%;
-        border-radius: 4px;
-      }
-    }
-
-    .cardTitleCon {
-      width: 100%;
-      padding-left: 18px;
-
-      .cardTitle {
-        margin: 10px 0px;
-        padding-right: 17px;
-        font-size: 15px;
-      }
-
-      .cardType {
-        display: flex;
-        font-weight: 700;
-        margin: 12px auto;
-        text-transform: uppercase;
-      }
-
-      .cardSynopsis {
-        margin: 9px 0px 5px;
-        text-align: justify;
-      }
-
-      .cardType, .cardSynopsis {
-        padding-right: 17px;
-        font-size: 11px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-line-clamp: 6;
-        -webkit-box-orient: vertical;
-
-        .R {
-          color: var(--LR);
-          float: right;
-        }
-
-        .M {
-          color: var(--LM);
-        }
-      }
-    }
   }
 }
 
