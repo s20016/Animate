@@ -1,5 +1,5 @@
 {
-  "update": "March 12, 2021",
+  "update": "March 13, 2021",
   "manga": [
     {
       "mal_id": 50767,
@@ -119,6 +119,14 @@
       "ja_title": "いんブラ！",
       "subtitle": "",
       "status": "FR",
+      "count": 1
+    },
+    {
+      "mal_id": 133983,
+      "en_title": "Isekai de Te ni Ireta Seisan Skill wa Saikyou Datta you desu",
+      "ja_title": "異世界で手に入れた生産スキルは最強だったようです。",
+      "subtitle": "",
+      "status": "CR",
       "count": 1
     },
     {
@@ -325,6 +333,14 @@
       "mal_id": 121496,
       "en_title": "Solo Leveling",
       "ja_title": "Solo Leveling (나 혼자만 레벨업)",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 127781,
+      "en_title": "Tensei Kizoku, Kantei Skill de Nariagaru",
+      "ja_title": "転生貴族鑑定スキルで成り上がる",
       "subtitle": "",
       "status": "CR",
       "count": 1
