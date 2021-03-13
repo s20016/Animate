@@ -199,12 +199,16 @@ header {
     top: auto;
     bottom: 0;
     width: 100vw;
-    height: 5rem;
+    height: 5.2rem;
 
     .navbar-items {
       flex-direction: row;
       height: auto;
       justify-content: space-around;
+
+      .item .logo {
+        font-size: 1.9rem;
+      }
     }
   }
 }

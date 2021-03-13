@@ -180,7 +180,7 @@ header {
     top: auto;
     bottom: 0;
     width: 100vw;
-    height: 5rem;
+    height: 5.2rem;
   }
   .navbar .navbar-items {
     -webkit-box-orient: horizontal;
@@ -190,6 +190,9 @@ header {
     height: auto;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .navbar .navbar-items .item .logo {
+    font-size: 1.9rem;
   }
 }
 
