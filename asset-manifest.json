@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Animate/static/css/main.4d91f821.chunk.css",
+    "main.css": "/Animate/static/css/main.d951b8fd.chunk.css",
     "main.js": "/Animate/static/js/main.791c6a62.chunk.js",
     "main.js.map": "/Animate/static/js/main.791c6a62.chunk.js.map",
     "runtime-main.js": "/Animate/static/js/runtime-main.34530f46.js",
@@ -10,13 +10,13 @@
     "static/js/3.acff65ee.chunk.js": "/Animate/static/js/3.acff65ee.chunk.js",
     "static/js/3.acff65ee.chunk.js.map": "/Animate/static/js/3.acff65ee.chunk.js.map",
     "index.html": "/Animate/index.html",
-    "static/css/main.4d91f821.chunk.css.map": "/Animate/static/css/main.4d91f821.chunk.css.map",
+    "static/css/main.d951b8fd.chunk.css.map": "/Animate/static/css/main.d951b8fd.chunk.css.map",
     "static/js/2.f0971ed8.chunk.js.LICENSE.txt": "/Animate/static/js/2.f0971ed8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.34530f46.js",
     "static/js/2.f0971ed8.chunk.js",
-    "static/css/main.4d91f821.chunk.css",
+    "static/css/main.d951b8fd.chunk.css",
     "static/js/main.791c6a62.chunk.js"
   ]
 }
