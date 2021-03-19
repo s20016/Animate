@@ -1,5 +1,5 @@
 {
-  "update": "March 12, 2021",
+  "update": "March 19, 2021",
   "anime" : [
     {
       "mal_id": 41380,
@@ -163,7 +163,7 @@
     },
     {
       "mal_id": 12581,
-      "en_title": "Asa made Jugyou Chu!",
+      "en_title": "Asa Made Jugyou Chu!",
       "ja_title": "朝まで授業chu!",
       "subtitle": "",
       "type": "TV",
@@ -363,7 +363,7 @@
     },
     {
       "mal_id": 12893,
-      "en_title": "Danshi Koukousei no Nichojou",
+      "en_title": "Danshi Koukousei no Nichijou",
       "ja_title": "男子高校生の日常",
       "subtitle": "",
       "type": "TV",
@@ -515,7 +515,7 @@
     },
     {
       "mal_id": 28907,
-      "en_title": "GATE: Jieitai Kanochi nite Kaku Tatakaeri",
+      "en_title": "GATE: Jieitai Kanochi Nite Kaku Tatakaeri",
       "ja_title": "GATE（ゲート）自衛隊 彼の地にて、斯く戦えり",
       "subtitle": "",
       "type": "TV",
@@ -592,6 +592,14 @@
       "subtitle": "",
       "type": "TV",
       "count" : 1
+    },
+    {
+      "mal_id": 31859,
+      "en_title": "Grimgar: Ashes and Illusions",
+      "ja_title": "灰と幻想のグリムガル",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
     },
     {
       "mal_id": 17729,
@@ -747,7 +755,7 @@
     },
     {
       "mal_id": 7054,
-      "en_title": "Kaichou wa Maid Sama",
+      "en_title": "Kaichou wa Maid-sama",
       "ja_title": "会長はメイド様!",
       "subtitle": "",
       "type": "TV",
@@ -947,7 +955,7 @@
     },
     {
       "mal_id": 10213,
-      "en_title": "Maji de watashi ni Koi shinasai",
+      "en_title": "Maji de Watashi ni Koi Shinasai",
       "ja_title": "真剣で私に恋しなさい！",
       "subtitle": "",
       "type": "TV",
@@ -1259,7 +1267,7 @@
     },
     {
       "mal_id": 28497,
-      "en_title": "Rokko no Yuusha",
+      "en_title": "Rokka no Yuusha",
       "ja_title": "六花の勇者",
       "subtitle": "",
       "type": "TV",
@@ -1675,7 +1683,7 @@
     },
     {
       "mal_id": 25159,
-      "en_title": "When Supernatural Battles Became Commonplace",
+      "en_title": "When Supernatural Battles Became Common Place",
       "ja_title": "異能バトルは日常系のなかで",
       "subtitle": "",
       "type": "TV",
