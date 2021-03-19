@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/main.css';
-import { Route, Switch, useLocation } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 
 import MainNavbar from './components/Main/MainNavbar';
