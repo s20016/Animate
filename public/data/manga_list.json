@@ -1,5 +1,5 @@
 {
-  "update": "March 13, 2021",
+  "update": "March 19, 2021",
   "manga": [
     {
       "mal_id": 50767,
@@ -125,6 +125,14 @@
       "mal_id": 133983,
       "en_title": "Isekai de Te ni Ireta Seisan Skill wa Saikyou Datta you desu",
       "ja_title": "異世界で手に入れた生産スキルは最強だったようです。",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 114297,
+      "en_title": "Jishou! Heibon Mazoku no Eiyuu Life",
+      "ja_title": "自称！平凡魔族の英雄ライフ ～B級魔族なのにチートダンジョンを作ってしまった結果～",
       "subtitle": "",
       "status": "CR",
       "count": 1
@@ -290,6 +298,14 @@
       "count": 1
     },
     {
+      "mal_id": 41949,
+      "en_title": "Renai Boukun",
+      "ja_title": "恋愛暴君",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
       "mal_id": 109045,
       "en_title": "Saikyou no Shokugyou wa Yuusha",
       "ja_title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
@@ -319,6 +335,22 @@
       "ja_title": "進撃の巨人",
       "subtitle": "",
       "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 100128,
+      "en_title": "The Promised Neverland",
+      "ja_title": "約束のネバーランド",
+      "subtitle": "",
+      "status": "CR",
+      "count": 1
+    },
+    {
+      "mal_id": 106202,
+      "en_title": "The World or Her",
+      "ja_title": "世界か彼女か選べない",
+      "subtitle": "",
+      "status": "FR",
       "count": 1
     },
     {
