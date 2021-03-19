@@ -15,7 +15,7 @@ const MainNavbar = () => {
             </Link>
         </li>
         <li className="item">
-            <Link to="/Animate/Manga">
+            <Link to="/Manga">
               <MenuBookIcon className="logo"/>
             </Link>
         </li>

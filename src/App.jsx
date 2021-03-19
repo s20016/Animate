@@ -18,8 +18,8 @@ export default class App extends React.Component {
         <MainTopScroll showBelow={210} />
         <AnimatePresence exitBeforeEnter>
           <Switch>
-            <Route exact path="/Animate" component={AnimeMain} />
-            <Route exact path="/Animate/Manga" component={MangaMain} />
+            <Route path="/Animate" component={AnimeMain} />
+            <Route path="/Manga" component={MangaMain} />
           </Switch>
         </AnimatePresence>
       </>
