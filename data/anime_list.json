@@ -1,5 +1,5 @@
 {
-  "update": "March 19, 2021",
+  "update": "March 24, 2021",
   "anime" : [
     {
       "mal_id": 41380,
@@ -168,6 +168,14 @@
       "subtitle": "",
       "type": "TV",
       "count" : 1
+    },
+    {
+      "mal_id": 39198,
+      "en_title": "Astra Lost in Space",
+      "ja_title": "彼方のアストラ",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
     },
     {
       "mal_id": 39195,
@@ -730,6 +738,14 @@
       "count" : 1
     },
     {
+      "mal_id": 36220,
+      "en_title": "Istudatte Bokura no Koi wa 10cm Datta",
+      "ja_title": "いつだって僕らの恋は10センチだった",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
+    },
+    {
       "mal_id": 14765,
       "en_title": "Ixion Saga DT",
       "ja_title": "イクシオン サーガ DT",
@@ -968,6 +984,14 @@
       "subtitle": "",
       "type": "TV",
       "count" : 1
+    },
+    {
+      "mal_id": 40397,
+      "en_title": "Maoujo de Oyasumi",
+      "ja_title": "魔王城でおやすみ",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
     },
     {
       "mal_id": 14833,
@@ -1722,6 +1746,14 @@
       "count" : 1
     },
     {
+      "mal_id": 39710,
+      "en_title": "Yesterday wo Utatte",
+      "ja_title": "イエスタデイをうたって",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
+    },
+    {
       "mal_id": 8861,
       "en_title": "Yosuga no Sora",
       "ja_title": "ヨスガノソラ",
@@ -1744,6 +1776,14 @@
       "subtitle": "",
       "type": "TV",
       "count" : 1
+    },
+    {
+      "mal_id": 36726,
+      "en_title": "Yuragi-sou no Yuuna-san",
+      "ja_title": "ゆらぎ荘の幽奈さん",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
     },
     {
       "mal_id": 18677,
