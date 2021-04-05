@@ -1,5 +1,5 @@
 {
-  "update": "March 24, 2021",
+  "update": "April 5, 2021",
   "anime" : [
     {
       "mal_id": 41380,
@@ -538,6 +538,14 @@
       "count" : 1
     },
     {
+      "mal_id": 35222,
+      "en_title": "Gakuen Babysitters",
+      "ja_title": "学園ベビーシッターズ",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
+    },
+    {
       "mal_id": 14131,
       "en_title": "Girls und Panzer",
       "ja_title": "ガールズ&パンツァー",
@@ -978,6 +986,14 @@
       "count" : 1
     },
     {
+      "mal_id": 35851,
+      "en_title": "Maquia: When the Promised Flower Blooms",
+      "ja_title": "さよならの朝に約束の花をかざろう",
+      "subtitle": "",
+      "type": "Movie",
+      "count": 1
+    },
+    {
       "mal_id": 40496,
       "en_title": "Maou Gakuin no Futtekigosha",
       "ja_title": "魔王学院の不適合者",
@@ -1269,9 +1285,25 @@
       "mal_id": 39587,
       "en_title": "Re:Zero kara Hajimaru Isekai Seikatsu",
       "ja_title": "Re：ゼロから始める異世界生活",
-      "subtitle": "2",
+      "subtitle": "Shin Henshuu-ban/ 2",
       "type": "TV",
       "count" : 2
+    },
+    {
+      "mal_id": 36286,
+      "en_title": "Re:Zero - Memory Snow",
+      "ja_title": "Re:ゼロから始める異世界生活 Memory Snow",
+      "subtitle": "",
+      "type": "Movie",
+      "count": 1
+    },
+    {
+      "mal_id": 38414,
+      "en_title": "Re:Zero - The Frozen Bond",
+      "ja_title": "Re:ゼロから始める異世界生活 氷結の絆",
+      "subtitle": "",
+      "type": "Movie",
+      "count": 1
     },
     {
       "mal_id": 18039,
