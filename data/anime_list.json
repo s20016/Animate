@@ -1,5 +1,5 @@
 {
-  "update": "April 5, 2021",
+  "update": "April 6, 2021",
   "anime" : [
     {
       "mal_id": 41380,
@@ -107,11 +107,11 @@
     },
     {
       "mal_id": 6547,
-      "en_title": "Angel Beats",
+      "en_title": "Angel Beats!",
       "ja_title": "Angel Beats!（エンジェルビーツ）",
       "subtitle": "",
       "type": "TV",
-      "count" : 1
+      "count" : 2
     },
     {
       "mal_id": 9989,
@@ -1266,6 +1266,14 @@
       "count" : 1
     },
     {
+      "mal_id": 27775,
+      "en_title": "Plastic Memories",
+      "ja_title": "プラスティック・メモリーズ",
+      "subtitle": "",
+      "type": "TV",
+      "count": 2
+    },
+    {
       "mal_id": 6201,
       "en_title": "Princess Lover!",
       "ja_title": "プリンセスラバー!",
@@ -1587,11 +1595,11 @@
     },
     {
       "mal_id": 23283,
-      "en_title": "Terror in Tokyo",
+      "en_title": "Terror in Resonance",
       "ja_title": "残響のテロル",
       "subtitle": "",
       "type": "TV",
-      "count" : 1
+      "count": 1
     },
     {
       "mal_id": 2236,
