@@ -1,5 +1,5 @@
 {
-  "update": "April 6, 2021",
+  "update": "April 12, 2021",
   "anime" : [
     {
       "mal_id": 41380,
@@ -645,9 +645,9 @@
       "mal_id": 38816,
       "en_title": "Hello World",
       "ja_title": "ハロー・ワールド",
-      "subtitle": "",
+      "subtitle": "Another World",
       "type": "Movie",
-      "count" : 1
+      "count" : 2
     },
     {
       "mal_id": 8630,
@@ -1370,6 +1370,14 @@
       "count" : 1
     },
     {
+      "mal_id": 12477,
+      "en_title": "Sakasama no Patema",
+      "ja_title": "サカサマのパテマ",
+      "subtitle": "",
+      "type": "Movie",
+      "count": 1
+    },
+    {
       "mal_id": 20047,
       "en_title": "Sakura Trick",
       "ja_title": "桜Trick",
@@ -1847,7 +1855,7 @@
       "ja_title": "絶園のテンペスト",
       "subtitle": "",
       "type": "TV",
-      "count" : 1
+      "count" : 2
     }
   ]
 }
