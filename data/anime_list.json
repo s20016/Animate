@@ -591,7 +591,7 @@
       "ja_title": "ゴールデンタイム",
       "subtitle": "",
       "type": "TV",
-      "count" : 1
+      "count" : 2
     },
     {
       "mal_id": 8425,
@@ -1122,6 +1122,14 @@
       "count" : 1
     },
     {
+      "mal_id": 16870,
+      "en_title": "Naruto Shippuden: The Last",
+      "ja_title": "ナルト 疾風伝 The Last",
+      "subtitle": "",
+      "type": "Movie",
+      "count": 1
+    },
+    {
       "mal_id": 1735,
       "en_title": "Naruto",
       "ja_title": "NARUTO (ナルト)",
@@ -1183,7 +1191,7 @@
       "ja_title": "織田信奈の野望",
       "subtitle": "",
       "type": "TV",
-      "count" : 1
+      "count" : 2
     },
     {
       "mal_id": 6324,
@@ -1610,14 +1618,6 @@
       "count": 1
     },
     {
-      "mal_id": 2236,
-      "en_title": "The Girl who Leapt Through Time",
-      "ja_title": "時をかける少女",
-      "subtitle": "",
-      "type": "Movie",
-      "count" : 1
-    },
-    {
       "mal_id": 20785,
       "en_title": "The Irregular at Magical High School",
       "ja_title": "魔法科高校の劣等生",
@@ -1631,6 +1631,14 @@
       "ja_title": "とある飛空士への恋歌",
       "subtitle": "",
       "type": "TV",
+      "count" : 2
+    },
+    {
+      "mal_id": 2236,
+      "en_title": "Toki wo Kakeru Shoujo",
+      "ja_title": "時をかける少女",
+      "subtitle": "",
+      "type": "Movie",
       "count" : 2
     },
     {
@@ -1856,6 +1864,14 @@
       "subtitle": "",
       "type": "TV",
       "count" : 2
+    },
+    {
+      "mal_id": 31245,
+      "en_title": "Zutto Mae Kara Suki Deshita",
+      "ja_title": "ずっと前から好きでした",
+      "subtitle": "",
+      "type": "Movie",
+      "count": 1
     }
   ]
 }
