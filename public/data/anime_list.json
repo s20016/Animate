@@ -1,5 +1,5 @@
 {
-  "update": "May 05, 2021",
+  "update": "July 16, 2021",
   "anime" : [
     {
       "mal_id": 41380,
@@ -24,6 +24,14 @@
       "subtitle": "",
       "type": "Movie",
       "count" : 1
+    },
+    {
+      "mal_id": 41457,
+      "en_title": "86",
+      "ja_title": "86 (エイティシックス)",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
     },
     {
       "mal_id": 25397,
@@ -522,6 +530,14 @@
       "count" : 1
     },
     {
+      "mal_id": 41025,
+      "en_title": "Fumetsu no Anata e",
+      "ja_title": "不滅のあなたへ",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
+    },
+    {
       "mal_id": 28907,
       "en_title": "GATE: Jieitai Kanochi Nite Kaku Tatakaeri",
       "ja_title": "GATE（ゲート）自衛隊 彼の地にて、斯く戦えり",
@@ -706,6 +722,14 @@
       "count" : 1
     },
     {
+      "mal_id": 42361,
+      "en_title": "Ijiranaide Nagatoro-san",
+      "ja_title": "イジらないで、長瀞さん",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
+    },
+    {
       "mal_id": 9041,
       "en_title": "IS: Infinite Stratos",
       "ja_title": "IS（インフィニット・ストラトス）",
@@ -733,7 +757,7 @@
       "mal_id": 41623,
       "en_title": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu",
       "ja_title": "異世界魔王と召喚少女の奴隷魔術",
-      "subtitle": "",
+      "subtitle": "Ω",
       "type": "TV",
       "count" : 1
     },
@@ -856,6 +880,14 @@
       "subtitle": "",
       "type": "TV",
       "count" : 1
+    },
+    {
+      "mal_id": 44276,
+      "en_title": "Kyuukyoku Shinka shita Full Dive RPG",
+      "ja_title": "究極進化したフルダイブRPGが現実よりもクソゲーだったら",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
     },
     {
       "mal_id": 12175,
@@ -1045,7 +1077,7 @@
       "mal_id": 40729,
       "en_title": "Megalo Box",
       "ja_title": "メガロボクス",
-      "subtitle": "",
+      "subtitle": "2",
       "type": "TV",
       "count" : 1
     },
