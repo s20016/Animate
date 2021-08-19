@@ -786,6 +786,14 @@
       "count" : 1
     },
     {
+      "mal_id": 40787,
+      "en_title": "Josee, the Tiger and the Fish",
+      "ja_title": "ジョゼと虎と魚たち",
+      "subtitle": "",
+      "type": "Movie",
+      "count": 1
+    },
+    {
       "mal_id": 35639,
       "en_title": "Just Because!",
       "ja_title": "Just Because!",
@@ -1711,7 +1719,7 @@
       "ja_title": "東京喰種（トーキョーグール）",
       "subtitle": "√A",
       "type": "TV",
-      "count" : 1
+      "count" : 2
     },
     {
       "mal_id": 7654,
@@ -1749,7 +1757,7 @@
       "mal_id": 41389,
       "en_title": "Tonikaku Kawaii",
       "ja_title": "トニカクカワイイ",
-      "subtitle": "",
+      "subtitle": "OVA",
       "type": "TV",
       "count" : 1
     },
