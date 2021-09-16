@@ -63,7 +63,7 @@
       "ja_title": "アカメが斬る！",
       "subtitle": "",
       "type": "TV",
-      "count" : 1
+      "count" : 2
     },
     {
       "mal_id": 4744,
@@ -1800,6 +1800,14 @@
       "subtitle": "",
       "type": "TV",
       "count" : 1
+    },
+    {
+      "mal_id": 34498,
+      "en_title": "Uchiage Hanabi",
+      "ja_title": "打ち上げ花火、下から見るか？横から見るか？",
+      "subtitle": "",
+      "type": "Movie",
+      "count": 1
     },
     {
       "mal_id": 39741,
