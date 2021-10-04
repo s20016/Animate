@@ -1,5 +1,5 @@
 {
-  "update": "August 19, 2021",
+  "update": "October 4, 2021",
   "anime" : [
     {
       "mal_id": 41380,
@@ -40,6 +40,14 @@
       "subtitle": "",
       "type": "TV",
       "count" : 1
+    },
+    {
+      "mal_id": 34881,
+      "en_title": "AHO-GIRL",
+      "ja_title": "アホガール",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
     },
     {
       "mal_id": 857,
@@ -256,6 +264,14 @@
       "subtitle": "",
       "type": "TV",
       "count" : 1
+    },
+    {
+      "mal_id": 48849,
+      "en_title": "Sonny Boy",
+      "ja_title": "Sonny Boy",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
     },
     {
       "mal_id": 38186,
@@ -1552,6 +1568,14 @@
       "subtitle": "Memories",
       "type": "TV",
       "count" : 1
+    },
+    {
+      "mal_id": 40904,
+      "en_title": "Remake our Life!",
+      "ja_title": "ぼくたちのリメイク",
+      "subtitle": "",
+      "type": "TV",
+      "count": 1
     },
     {
       "mal_id": 11577,
